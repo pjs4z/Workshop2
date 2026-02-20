@@ -1,0 +1,176 @@
+Here is the UFO-B (Perdurant) mapping of the temporal mechanics described in the text. These entities describe the blind, physiological timeline of the neurocognitive system—the machinery of cause and effect that operates prior to conscious intervention.
+
+```markdown
+---
+aliases: [Positive RPE Context, The Good Surprise]
+ufo_layer: UFO-B
+ufo_primitive: Situation
+---
+# The Unpredicted Reward State
+
+## Ontological Definition
+This is a specific snapshot of reality where the external environment delivers an outcome that mathematically exceeds the internal prediction of the [[Human Neurocognitive System]]. It is the precise moment *t* where the value of a stimulus ($V_{actual}$) is greater than the expected value ($V_{expected}$).
+
+In this frozen configuration, the agent has encountered a novelty—a calorie-dense food, a social accolade, or a new potential mate—that was not fully accounted for in their previous model of the world. This situation is the structural precondition for desire; it is the spark gap across which the neurochemical charge must jump. It does not ask for permission; it simply presents a delta of value that the brain is biologically mandated to process.
+
+## Relational Calculus
+- **triggers:** [[Reward Prediction Error]] *(The unexpected surplus awakens the comparator mechanism).*
+```
+
+```markdown
+---
+aliases: [The "Itch", The Wanting Spike, Motivational Salience]
+ufo_layer: UFO-B
+ufo_primitive: Event
+---
+# The Dopaminergic Surge
+
+## Ontological Definition
+A dynamic, high-velocity neurochemical event. It is the physiological unfolding of the "Molecule of More" flooding the synaptic clefts. This process transforms the agent's state from passive observation to active, visceral pursuit. It is not a feeling of happiness; it is a mechanism of *propulsion*.
+
+During this interval, the brain suppresses [[Here & Now Satiety]] and locks focus exclusively onto the [[Extrapersonal Space]]. The event functions as a biological mandate: it reorients the organism's entire metabolic and attentional apparatus toward the acquisition of the triggering object. It is the "drag-you-by-the-neck" force described in the semaglutide narrative, playing out as an inevitable chemical cascade.
+
+## Relational Calculus
+- **manifests:** [[Dopaminergic Desire]] *(The event is the active expression of the latent capacity to want).*
+- **bringsAbout:** [[Hyper-Motivational Arousal]] *(The process results in a state of high-alert craving).*
+```
+
+```markdown
+---
+aliases: [The Chase State, High-Beta State]
+ufo_layer: UFO-B
+ufo_primitive: Situation
+---
+# Hyper-Motivational Arousal
+
+## Ontological Definition
+A distinct state of affairs characterized by a narrow attentional field and high physiological tension. In this configuration, the [[Human Neurocognitive System]] is completely oriented toward the future. The "Have" chemicals are chemically inhibited; satisfaction is structurally impossible in this state because the system is designed solely for pursuit.
+
+This is the state of Winnie-the-Pooh *reaching* for the honey, or Rainn Wilson *striving* for movie stardom. The agent is locked in a loop of anticipation. This situation persists until one of two events occurs: the object is acquired (collapse), or the receptors fatigue (downregulation).
+
+## Relational Calculus
+- **triggers:** [[Control Dopamine]] *(The intense energy triggers the calculation circuit to devise a plan to get the object).*
+```
+
+```markdown
+---
+aliases: [The Acquisition Event, The Kill of the Thrill]
+ufo_layer: UFO-B
+ufo_primitive: Event
+---
+# Transposition to Peripersonal Space
+
+## Ontological Definition
+The critical transition event where the Object of Desire physically moves from the [[Extrapersonal Space]] (the realm of "Not Yet") into the [[Peripersonal Space]] (the realm of "Now"). This is the mechanical act of consumption, possession, or achievement.
+
+Crucially, this event acts as a "kill switch" for the previous dopamine surge. Because [[Dopaminergic Desire]] can only process what is *absent*, the presence of the object mechanically forces the dopamine circuit to shut down. This is not a psychological choice, but a logical necessity of the circuit's architecture: one cannot want what one already has.
+
+## Relational Calculus
+- **manifests:** [[Here & Now Satiety]] *(The event actualizes the capacity to consume and process the present).*
+- **bringsAbout:** [[Post-Acquisition Dissatisfaction]] *(The shutting off of dopamine results in the 'let down' or the baseline state).*
+```
+
+```markdown
+---
+aliases: [The Dr. Pepper Environment, Supernormal Stimulus Field]
+ufo_layer: UFO-B
+ufo_primitive: Situation
+---
+# High-Frequency Stimulation Environment
+
+## Ontological Definition
+A persistent state of affairs where the [[Human Neurocognitive System]] is subjected to rapid, repeated, or intense dopaminergic triggers (e.g., the "four or five cans of Dr. Pepper a day"). In this situation, the synaptic gap is chronically flooded with neurotransmitters.
+
+This configuration represents a homeostatic threat to the biological system. The organism cannot sustain this level of excitation without damage, creating the structural necessity for a defensive biological response. It is the environmental precondition for the mechanism of tolerance.
+
+## Relational Calculus
+- **triggers:** [[Neuroadaptive Tolerance]] *(The over-abundance of signal triggers the receptor system to defend itself).*
+```
+
+```markdown
+---
+aliases: [Numbing, The "More to Feel Less" Process]
+ufo_layer: UFO-B
+ufo_primitive: Event
+---
+# Receptor Downregulation
+
+## Ontological Definition
+The biological process of homeostatic correction. In response to the [[High-Frequency Stimulation Environment]], the brain actively strips away dopamine receptors or reduces their sensitivity. This is a blind, protective mechanism designed to maintain equilibrium.
+
+As this event unfolds over time, it physically alters the substrate of the [[Human Neurocognitive System]]. The "volume knob" of pleasure is mechanically turned down. The inevitable result is that the same stimulus which previously caused a surge now produces a null response, shifting the agent into a state of deficit.
+
+## Relational Calculus
+- **manifests:** [[Neuroadaptive Tolerance]] *(The event is the active adjusting of the sensitivity baseline).*
+- **bringsAbout:** [[The Anhedonic Baseline]] *(The process leaves the system in a state of reduced capacity for pleasure).*
+```
+
+```markdown
+---
+aliases: [The Numb State, The Boredom Trap]
+ufo_layer: UFO-B
+ufo_primitive: Situation
+---
+# The Anhedonic Baseline
+
+## Ontological Definition
+A rigid state of neurochemical insensitivity. Here, the [[Human Neurocognitive System]] possesses a sparse density of receptors. Normal "Here & Now" stimuli (a sunset, a conversation, plain water) fail to register because the threshold for activation is set impossibly high due to previous [[Receptor Downregulation]].
+
+This is the situation of the "Silicon Valley Fasters" prior to their intervention. It is a state of structural dissatisfaction where the agent is mechanically incapable of feeling subtle pleasures. This state creates a causal pressure for ever-increasing stimulation (addiction) just to feel "normal."
+
+## Relational Calculus
+- **triggers:** [[Neuroadaptive Tolerance]] *(The specific state of 'numbness' triggers the potential for Upregulation if stimulation is removed).*
+```
+
+```markdown
+---
+aliases: [The Reset, Dopamine Fasting Process]
+ufo_layer: UFO-B
+ufo_primitive: Event
+---
+# Receptor Upregulation
+
+## Ontological Definition
+The slow, restorative biological process that occurs when the [[Human Neurocognitive System]] is deprived of high-intensity triggers (the "Dopamine Fast"). In the absence of the flood, the brain detects a signal deficit and mechanically begins to re-grow receptors and increase sensitivity.
+
+This is the inverse of downregulation. It is the physiological healing mechanism described in the text as "resensitization." It is not an intellectual insight, but a tissue-level repair job that lowers the threshold required for satisfaction.
+
+## Relational Calculus
+- **manifests:** [[Neuroadaptive Tolerance]] *(The event is the upward adjustment of the sensitivity quality).*
+- **bringsAbout:** [[Homeostatic Equilibrium]] *(The process restores the capacity to enjoy subtle stimuli).*
+```
+
+```markdown
+---
+aliases: [The Titanic Mindset, The Rut]
+ufo_layer: UFO-B
+ufo_primitive: Situation
+---
+# Cognitive Fixation State
+
+## Ontological Definition
+A static mental configuration where the [[Control Dopamine]] circuit has excessively inhibited the novelty-seeking pathways. The agent perceives objects strictly through their established labels and utility functions (e.g., "Iceberg = Ship Sinker").
+
+In this situation, the neural pathways are deeply entrenched ("The Rut"). The brain is optimizing for efficiency and safety, strictly filtering out "noise." However, this efficiency creates a blindness to novel affordances. This is the precondition that requires a disruption—such as sleep or a "steel ball" drop—to break.
+
+## Relational Calculus
+- **triggers:** [[Cognitive Fixation]] *(The rigid environment reinforces the tendency to rely on known patterns).*
+```
+
+```markdown
+---
+aliases: [The Edison Nap, Hypnagogic Drift]
+ufo_layer: UFO-B
+ufo_primitive: Event
+---
+# Associative Drift
+
+## Ontological Definition
+The transient neurocognitive process where the inhibition of the prefrontal cortex relaxes (often during the onset of sleep or deep relaxation). During this event, the strict filters of [[Control Dopamine]] weaken, allowing the [[Divergent Thinking]] mode to mix unrelated concepts freely.
+
+This is the mechanical "mixing of the pot." It creates a temporal window where the "steel ball" drops—where the logical censor is offline, and raw, unverified data points connect to form new structures. It disrupts the [[Cognitive Fixation State]].
+
+## Relational Calculus
+- **manifests:** [[Divergent Thinking]] *(The event is the active play of the wide-net associative mode).*
+- **bringsAbout:** [[The Novel Synthesis]] *(The process creates a new, potential solution or idea).*
+```
