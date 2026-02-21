@@ -1,92 +1,6 @@
-PRAISE FOR THE MOLECULE OF MORE
-
-“Daniel Lieberman and Michael Long have pulled off an amazing feat. They have made a biography of a neurotransmitter a riveting read. Once you understand the power and peril of dopamine, you’ll better understand the human condition itself.”
-
-—Daniel H. Pink, author of Drive and When
-
-“Meet a molecule whose fingerprint rests upon every aspect of human nature—from desire and drugs to politics and progress. Lieberman and Long tell the epic saga of dopamine as a page-turner that you simply can’t put down.”
-
-—David Eagleman, PhD, neuroscientist at Stanford and New
-
-York Times bestselling author
-
-“I’ve worked as an artist for forty years, and the question ‘Why am I like this?’ has been a puzzle, a mystery, a plea, and an occasional cry to the heavens. Lieberman and Long have created a road map for all those wrestling between insatiable longing and the here and now.”
-
-—Thomas F. Wilson, actor and comedian
-
-“Why do we crave what we don’t have rather than feel good about what we do—and why do fools fall in love? Haunting questions of human biology are answered by The Molecule of More, a must-read about the human condition.”
-
-—Gregg Easterbrook, author of It’s Better Than It Looks
-
-“As a guy who creates musical stuff for a living and reads science books for kicks, I was doubly hooked by The Molecule of More. Lieberman and Long lay out the astoundingly wide-ranging effects of dopamine with nimble metaphors and fat-free sentences. And the research linking creativity and madness, with dopamine as the hidden culprit—let’s just say it hit home.
-
-Reading each chapter, I felt myself fitting a key smoothly into a locked door, opening onto a fresh-yet-familiar room.”
-
-—Robbie Fulks, Grammy-nominated recording artist
-
-“Jim Watson, who deciphered the genetic code, famously said, ‘There are only molecules; the rest is sociology,’ adding fuel to C. P. Snow’s complaint that Science and the humanities are two fundamentally different “cultures” which will never meet. The authors argue provocatively, yet convincingly, that the molecule that allows us to bridge the chasm between them is dopamine. Though written for ordinary people, the narrative is sprinkled throughout with dazzling new insights that will appeal equally to specialists.”
-
-—V.S. Ramachandran, PhD, professor at the University of California, San Diego, and at Salk Institute and author of The
-
-Emerging Mind
-
-## Title Page
-
-## Copyright
-
-Copyright © 2018 by Daniel Z. Lieberman, MD, and Michael E. Long
-
-All rights reserved. No part of this book may be used or reproduced in any manner whatsoever without written permission except in the case of brief quotations embodied in critical articles or
-
-reviews.
-
-Excerpt of lyrics from “Desolation Row” (page 120) Copyright © 1965 by Warner Bros. Inc.; renewed 1993 by Special Rider Music. All rights reserved. International copyright secured. Reprinted
-
-by permission. Figure 2 (page 41) by Sasangi Umesha Figure 4 (page 115) and Figure 5 (page 191) by Thomas Splettstoesser (www.scistyle.com)
-
-BenBella Books, Inc. 10440 N. Central Expressway, Suite 800
-
-Dallas, TX 75231 www.benbellabooks.com Send feedback to feedback@benbellabooks.com
-
-First E-Book Edition: August 2018
-
-Library of Congress Cataloging-in-Publication Data Names: Lieberman, Daniel Z., 1964- author. | Long, Michael E., 1963- author. Title: The molecule of more : how a single chemical in your brain drives love, sex, and creativity-and
-
-will determine the fate of the human race / Daniel Z. Lieberman, MD and Michael E. Long. Description: Dallas, TX : BenBella Books, Inc., [2018] | Includes bibliographical references and
-
-index. Identifiers: LCCN 2018010836 (print) | LCCN 2018021644 (ebook) | ISBN 9781946885296
-
-(electronic) | ISBN 9781946885111 (trade cloth : alk. paper) Subjects: LCSH: Dopamine—Physiological effect. | Dopamine—Receptors. | Neurotransmitters. Classification: LCC QP563.D66 (ebook) | LCC QP563.D66 L54 2018 (print) | DDC 612.8/042—
-
-dc23 LC record available at https://lccn.loc.gov/2018010836
-
-Editing by Vince Hyman Copyediting by James Fraleigh Proofreading by Lisa Story and Greg Teague
-
-Indexing by Debra Bowman Text design and composition by Aaron Edmiston
-
-Cover design by Pete Garceau Jacket design by Sarah Avinger Printed by Lake Book Manufacturing
-
-Distributed to the trade by Two Rivers Distribution, an Ingram brand www.tworiversdistribution.com
-
-Special discounts for bulk sales (minimum of 25 copies) are available. Please contact Aida
-
-Herrera at aida@benbellabooks.com.
-
-## Dedication
-
-For Sam and Zach, who open my eyes to seeing the world in new ways.
-
-—DZL
-
-For Dad, who would have told everyone even if they didn’t want to hear it; and
-
-For Kent, who left just when things were getting interesting.
-
-—ML
+# The Molecule of More
 
 ## Contents
-
-Acknowledgments
 
 Introduction UP VERSUS DOWN
 
@@ -111,30 +25,6 @@ Chapter 7 HARMONY
 Index
 
 About the Authors
-
-## Acknowledgments
-
-We are most grateful to Dr. Fred H. Previc for his book The Dopaminergic Mind in Human Evolution and History. The book introduced us to the fundamental distinction between the future focus of dopamine and the present focus of a group of other neurotransmitters. It’s written primarily for scientists, but if you are interested in a deeper look at the neurobiology that informs this book, we highly recommend it.
-
-Thanks to our agents, Andrea Somberg and Wendy Levinson of the Harvey Klinger Agency, who immediately understood what we were doing and gave us the validation we had hoped to find. Thanks too to our publisher, Glenn Yeffeth at BenBella, whose enthusiasm and expertise put us further at ease. Thanks also to the BenBella team, especially Leah Wilson, Adrienne Lang, Jennifer Canzoneri, Alexa Stevenson, Sarah Avinger, Heather Butterfield, and everyone else there who labored over our work, even if we never met. Plus: special thanks to copy editor extraordinaire James M. Fraleigh. He could improve even this sentence, and probably in his sleep.
-
-Dan wishes to thank Dr. Frederick Goodwin for his many years of mentorship. Dr. Goodwin is one of the world’s foremost experts on bipolar disorder. He drew my attention to the relationship between immigration and bipolar genes, and also suggested that I look to Tocqueville’s classic book Democracy in America to better understand the character of the United States in the nineteenth century. Thanks to the George Washington
-
-University Medical Faculty Associates for the opportunity to practice psychiatry in a vibrant academic environment and the privilege of treating people living with mental illness. My patients’ willingness to share with me their suffering, triumphs, hopes, and fears is a constant source of inspiration for which I’m grateful. Thanks also to the medical students and trainees who ask annoyingly difficult questions, forcing me to constantly rethink my understanding of how the brain works.
-
-Mike wishes to thank early readers Greg Northcutt and Jim & Ellen Hubbard, who confirmed that we had made the science compelling. Thanks to John J. Miller for the professional example and Peter Nash for the personal inspiration. Thanks also to my students at Georgetown University, who remind me that most of writing is thinking. I wouldn’t know how to tell a story if it weren’t for the late Blake Snyder, and I wouldn’t know how to make it sing without Vince Gilligan—thank you, gentlemen. Thanks also to my brother Todd for the daily jest. Keep it coming. Oh yeah: Thanks, Mom.
-
-Dan wishes to thank his wife, Masami, for her support, optimism, and good cheer. When the bumps along the road to finishing this book made me doubt myself, those doubts disappeared the moment I brought them to her. Thanks to my sons, Sam and Zach, who bring joy into my life and force me to grow as a person.
-
-Michael wishes to thank his wife, Julia, for the last couple years of extra latitude. You always let me rant, then kiss me on the forehead and tell me I can do it anyway. Thanks also to my kids, Sam, Madeline, and Brynne, for acting interested even when you were not. Love you all.
-
-The authors together wish to acknowledge their gratitude for the TGI Fridays near the White House where we so often indulged both control and desire dopamine. The planning and imagining that took place there would ultimately collapse into the bit of reality you now hold in your hands.
-
-Finally, this book began as an effort by two friends so uninterested in normal pastimes like fishing and baseball that the only thing we could do together was eat lunch more often or write a book. We remain friends, though a couple times it was a close call.
-
-Daniel Z. Lieberman & Michael E. Long
-
-February 2018
 
 ## Introduction UP VERSUS DOWN
 

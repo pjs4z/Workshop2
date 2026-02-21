@@ -1,0 +1,892 @@
+{
+  "semantic_frames": [
+    {
+      "frame_id": "frame_pre_suasion_process",
+      "description_name": "Pre-Suasion",
+      "definition": "The process of arranging for recipients to be receptive to a message before they encounter it by strategically guiding their preliminary attention.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_privileged_moment",
+          "term": "Privileged Moment",
+          "concept_type": "Parameter",
+          "definition": "A temporary, time-limited window of opportunity created by an opener where a target is most receptive to a proposal."
+        },
+        {
+          "concept_id": "conc_opener",
+          "term": "Opener",
+          "concept_type": "Mechanism",
+          "definition": "A specific word, action, or image presented immediately before a message to channel attention to a specific concept."
+        },
+        {
+          "concept_id": "conc_channeled_attention",
+          "term": "Channeled Attention",
+          "concept_type": "Mechanism",
+          "definition": "The psychological act of narrowing mental focus onto a specific concept, which simultaneously suppresses competing concepts."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_focusing_illusion",
+      "description_name": "The Focusing Illusion",
+      "definition": "A cognitive bias wherein nothing in life is considered as important as it is essentially believed to be while one is currently thinking about it.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_perceived_importance",
+          "term": "Perceived Importance",
+          "concept_type": "Parameter",
+          "definition": "The exaggerated value or weight assigned to a factor simply because it is currently held in focused attention."
+        },
+        {
+          "concept_id": "conc_perceived_causality",
+          "term": "Perceived Causality",
+          "concept_type": "Parameter",
+          "definition": "The tendency to assign causal status to whatever element is most focal or salient in the environment (What's Focal Is Causal)."
+        },
+        {
+          "concept_id": "conc_single_chute_question",
+          "term": "Single-Chute Question",
+          "concept_type": "Mechanism",
+          "definition": "A biased inquiry method that focuses attention on only one side of an issue (e.g., 'Are you unhappy?'), triggering a positive test strategy."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_commanders_of_attention",
+      "description_name": "Commanders of Attention",
+      "definition": "Specific categories of information that automatically capture or hold human focus due to evolutionary or psychological predispositions.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_attractor",
+          "term": "The Attractor",
+          "concept_type": "Role",
+          "definition": "Stimuli that seize immediate attention, specifically the Sexual, the Threatening, and the Different."
+        },
+        {
+          "concept_id": "conc_magnetizer",
+          "term": "The Magnetizer",
+          "concept_type": "Role",
+          "definition": "Stimuli that hold attention over time, specifically the Self-Relevant, the Unfinished, and the Mysterious."
+        },
+        {
+          "concept_id": "conc_orienting_response",
+          "term": "Orienting Response",
+          "concept_type": "Mechanism",
+          "definition": "A reflex that directs attention immediately to changes in the environment or novel stimuli."
+        },
+        {
+          "concept_id": "conc_zeigarnik_effect",
+          "term": "Zeigarnik Effect",
+          "concept_type": "Mechanism",
+          "definition": "The psychological tendency for uncompleted tasks or unresolved narratives to hoard attention and remain more memorable than completed ones."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_associative_coherence",
+      "description_name": "The Primacy of Associations",
+      "definition": "The model positing that mental activity consists of patterns of associations, where guiding attention to one concept readies (primes) related concepts for action.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_persuasive_geography",
+          "term": "Persuasive Geography",
+          "concept_type": "Mechanism",
+          "definition": "The physical and psychological environment consisting of background cues that trigger specific internal associations and goals."
+        },
+        {
+          "concept_id": "conc_metaphor",
+          "term": "Metaphor",
+          "concept_type": "Mechanism",
+          "definition": "A linguistic device that frames reality by transferring the properties and associations of one concept to another."
+        },
+        {
+          "concept_id": "conc_if_when_then_plan",
+          "term": "If/When-Then Plan",
+          "concept_type": "Mechanism",
+          "definition": "A strategic self-statement that links a specific environmental cue directly to a desired goal-oriented action."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_seven_principles",
+      "description_name": "Universal Principles of Influence",
+      "definition": "Fundamental psychological levers that reliably drive human assent when activated.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_unity",
+          "term": "Unity",
+          "concept_type": "Mechanism",
+          "definition": "The experience of shared identity where the self and other overlap (We-ness), driven by Being Together (kinship/place) or Acting Together (synchrony)."
+        },
+        {
+          "concept_id": "conc_reciprocation",
+          "term": "Reciprocation",
+          "concept_type": "Mechanism",
+          "definition": "The obligation to give back to those who have given first; optimized when the initial gift is Meaningful, Unexpected, and Customized."
+        },
+        {
+          "concept_id": "conc_authority",
+          "term": "Authority",
+          "concept_type": "Mechanism",
+          "definition": "The tendency to follow experts; enhanced by establishing Trustworthiness through the admission of a weakness before a strength."
+        },
+        {
+          "concept_id": "conc_social_proof",
+          "term": "Social Proof",
+          "concept_type": "Mechanism",
+          "definition": "The reliance on the actions of others to determine behavior, providing both Validity (it's right) and Feasibility (it's possible)."
+        },
+        {
+          "concept_id": "conc_scarcity",
+          "term": "Scarcity",
+          "concept_type": "Mechanism",
+          "definition": "The increased desire for items or opportunities that are rare, limited, or dwindling."
+        },
+        {
+          "concept_id": "conc_consistency",
+          "term": "Consistency",
+          "concept_type": "Mechanism",
+          "definition": "The desire to align future actions with past commitments, statements, or stands."
+        },
+        {
+          "concept_id": "conc_liking",
+          "term": "Liking",
+          "concept_type": "Mechanism",
+          "definition": "The predisposition to say yes to those one likes, driven primarily by Similarities and Compliments."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_organizational_ethics",
+      "description_name": "The Triple-Tumor Structure of Organizational Dishonesty",
+      "definition": "A theoretical model describing the internal economic damage caused by a corporate culture that encourages unethical external behavior.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_moral_stress",
+          "term": "Moral Stress",
+          "concept_type": "Mechanism",
+          "definition": "The psychological conflict experienced by employees when their personal ethics clash with an organization's unethical practices."
+        },
+        {
+          "concept_id": "conc_triple_tumors",
+          "term": "Triple Tumors",
+          "concept_type": "Parameter",
+          "definition": "The three specific costs of unethical culture: Poor Employee Performance, High Employee Turnover, and Employee Fraud/Malfeasance."
+        }
+      ]
+    }
+  ],
+  "situations": [
+    {
+      "situation_id": "sit_jim_fire_alarm",
+      "narrative_summary": "Jim, a top-performing fire alarm salesman, would intentionally 'forget' essential information in his car while the prospects were taking a test. He would ask permission to re-enter the home to retrieve it, often requiring the homeowners to give him a key or let him themselves. This act transformed him from an outsider to a trusted insider before the sales pitch began.",
+      "satisfies_frame_id": "frame_pre_suasion_process",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_opener",
+          "manifested_as": "The calculated act of forgetting materials and asking to re-enter the home."
+        },
+        {
+          "concept_id": "conc_privileged_moment",
+          "manifested_as": "The window of time immediately after re-entry where the homeowners psychologically categorized Jim as a trusted entity."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_furniture_website_wallpaper",
+      "narrative_summary": "In a study by Mandel and Johnson, visitors to a furniture website were shown a landing page with a background of either fluffy clouds or pennies. Those who saw clouds prioritized comfort and bought softer, more expensive sofas. Those who saw pennies prioritized economy and bought cheaper sofas.",
+      "satisfies_frame_id": "frame_associative_coherence",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_persuasive_geography",
+          "manifested_as": "The digital background (wallpaper) serving as the environment that triggered specific associations."
+        },
+        {
+          "concept_id": "conc_metaphor",
+          "manifested_as": "Clouds metaphorically linking to comfort; pennies metaphorically linking to economy."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_tylenol_lottery",
+      "narrative_summary": "Following the Tylenol cyanide poisonings in 1982, the lot numbers of the tainted bottles (2880 and 1910) received massive media attention. Paradoxically, people began playing these numbers in state lotteries at unprecedented rates, forcing officials to halt wagers on them.",
+      "satisfies_frame_id": "frame_focusing_illusion",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_perceived_causality",
+          "manifested_as": "The public attributing power and causal influence to the numbers simply because they were the focus of attention."
+        },
+        {
+          "concept_id": "conc_perceived_importance",
+          "manifested_as": "The assumption that because the numbers were prominent in the news, they must be significant for other events (like the lottery)."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_bolkan_andersen_survey",
+      "narrative_summary": "Researchers approached people and asked a single-chute question: 'Do you consider yourself a helpful person?' (or 'adventurous'). Nearly everyone said yes. Immediately after this admission, compliance with a request to help with a survey (or try a new drink) jumped significantly compared to those not asked the opening question.",
+      "satisfies_frame_id": "frame_focusing_illusion",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_single_chute_question",
+          "manifested_as": "The biased question ('Are you helpful?') that guided targets to focus only on their helpful traits."
+        },
+        {
+          "concept_id": "conc_perceived_importance",
+          "manifested_as": "The temporary elevation of the 'helpful' or 'adventurous' identity in the target's mind."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_peter_reilly_confession",
+      "narrative_summary": "Peter Reilly falsely confessed to murdering his mother after an interrogation where the camera angle (or the focus of the interrogation) was fixed on him. Research shows that when a camera is focused on a suspect, observers perceive the suspect as the causal agent of the confession, ignoring the pressure from the interrogator.",
+      "satisfies_frame_id": "frame_focusing_illusion",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_perceived_causality",
+          "manifested_as": "Observers attributing the confession to Reilly's free will because he was visually focal, while the interrogator was not."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_zeigarnik_waiter",
+      "narrative_summary": "Bluma Zeigarnik observed a waiter who could remember complex orders perfectly while they were unpaid and unserved. However, the moment the transaction was complete, he forgot the orders entirely.",
+      "satisfies_frame_id": "frame_commanders_of_attention",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_zeigarnik_effect",
+          "manifested_as": "The waiter's retention of information only as long as the task remained unfinished."
+        },
+        {
+          "concept_id": "conc_magnetizer",
+          "manifested_as": "The uncompleted status of the order holding the waiter's cognitive attention."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_warren_buffett_letter",
+      "narrative_summary": "In his 50th-anniversary shareholder letter, Warren Buffett prefaced his outlook on the future by first admitting past prediction errors to establish honesty. He then framed his advice by saying he would tell readers what he would tell his own family.",
+      "satisfies_frame_id": "frame_seven_principles",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_authority",
+          "manifested_as": "Establishing trustworthiness by admitting a weakness (past errors) before delivering the main strength (future outlook)."
+        },
+        {
+          "concept_id": "conc_unity",
+          "manifested_as": "Invoking a kinship frame ('what I would tell my family') to merge his interests with the shareholders."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_rabbi_kalisch_japan",
+      "narrative_summary": "When the Japanese High Command asked why they should protect Jews against their Nazi allies, Rabbi Kalisch did not offer a complex historical argument. Instead, he stated, 'Because we are Asian, like you,' reframing the relationship based on regional unity against the Aryan ideology.",
+      "satisfies_frame_id": "frame_seven_principles",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_unity",
+          "manifested_as": "Creating a 'We' identity based on Place/Region ('Asian') to align the Jews with the Japanese military."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_sugihara_visas",
+      "narrative_summary": "Japanese diplomat Chiune Sugihara issued thousands of transit visas to Jews in defiance of his government. This altruism is attributed to his childhood home environment, where his parents constantly welcomed diverse strangers, expanding his sense of family to include all humanity.",
+      "satisfies_frame_id": "frame_seven_principles",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_unity",
+          "manifested_as": "The expansion of the Kinship/Home concept to include strangers, treating them as 'of us'."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_triple_tumor_experiment",
+      "narrative_summary": "In a lab experiment, students were placed in teams where the leader either cheated or acted honestly. Students in the cheating group performed worse on subsequent tasks, were more likely to leave the team (turnover), and those who stayed were more likely to cheat their own teammates (fraud).",
+      "satisfies_frame_id": "frame_organizational_ethics",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_triple_tumors",
+          "manifested_as": "The manifestation of poor performance, high turnover, and internal cheating in the unethical group."
+        },
+        {
+          "concept_id": "conc_moral_stress",
+          "manifested_as": "The drive causing honest students to quit the unethical team."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_cialdini_writing_desks",
+      "narrative_summary": "The author found he wrote academic, dry prose when sitting at a desk overlooking university buildings, but wrote more accessible, popular prose when sitting at a desk overlooking pedestrians.",
+      "satisfies_frame_id": "frame_associative_coherence",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_persuasive_geography",
+          "manifested_as": "The physical view from the window acting as a background cue that triggered specific writing vocabularies."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_bus_to_tucson",
+      "narrative_summary": "Organizers of a wealth program took prospects on a noisy, bumpy bus ride. The environment prevented critical thinking (System 2) and filled the space with success cues (posters, music, shills), leading many to sign up for a pyramid scheme.",
+      "satisfies_frame_id": "frame_associative_coherence",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_persuasive_geography",
+          "manifested_as": "The bus interior designed to suppress thought and provide constant success cues."
+        }
+      ]
+    }
+  ],
+  "mental_moments": [
+    {
+      "moment_id": "moment_focusing_illusion",
+      "moment_type": "Belief",
+      "statement": "Nothing in life is as important as you think it is while you are thinking about it; attention mistakenly confers value.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_perceived_importance",
+        "frame_focusing_illusion"
+      ]
+    },
+    {
+      "moment_id": "moment_causal_presumption",
+      "moment_type": "Belief",
+      "statement": "What is focal in the environment is presumed to be the cause of events, often ignoring hidden but true causes.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_perceived_causality",
+        "conc_channeled_attention"
+      ]
+    },
+    {
+      "moment_id": "moment_positive_test_strategy",
+      "moment_type": "Belief",
+      "statement": "When testing a possibility, one should look for confirmations (hits) rather than disconfirmations (misses), creating a bias toward the suggested idea.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_single_chute_question"
+      ]
+    },
+    {
+      "moment_id": "moment_craving_closure",
+      "moment_type": "Desire",
+      "statement": "The intense mental drive to return to incomplete tasks or unresolved narratives to resolve the tension of the unfinished.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_zeigarnik_effect",
+        "conc_magnetizer"
+      ]
+    },
+    {
+      "moment_id": "moment_associative_readiness",
+      "moment_type": "Belief",
+      "statement": "Exposure to a specific concept (opener) automatically readies and prioritizes related concepts in consciousness while suppressing unrelated ones.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_opener",
+        "conc_channeled_attention"
+      ]
+    },
+    {
+      "moment_id": "moment_reciprocation_obligation",
+      "moment_type": "Desire",
+      "statement": "The feeling of indebtedness and the drive to repay those who have provided a meaningful, unexpected, or customized gift first.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_reciprocation"
+      ]
+    },
+    {
+      "moment_id": "moment_liking_rapport",
+      "moment_type": "Belief",
+      "statement": "One should say yes to those one likes, particularly those who are similar or who offer compliments, as they likely care about one's welfare.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_liking"
+      ]
+    },
+    {
+      "moment_id": "moment_social_proof_reliance",
+      "moment_type": "Belief",
+      "statement": "If many comparable others are doing something, the action is both valid (correct) and feasible (achievable).",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_social_proof"
+      ]
+    },
+    {
+      "moment_id": "moment_authority_trust",
+      "moment_type": "Belief",
+      "statement": "Experts provide a valuable shortcut to good decisions, especially when they establish trustworthiness by admitting a weakness before a strength.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_authority"
+      ]
+    },
+    {
+      "moment_id": "moment_scarcity_craving",
+      "moment_type": "Desire",
+      "statement": "The urgent want for items or opportunities that are rare, dwindling, or available only for a limited time to avoid loss.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_scarcity"
+      ]
+    },
+    {
+      "moment_id": "moment_consistency_drive",
+      "moment_type": "Desire",
+      "statement": "The need to align future behavior with past active, voluntary, and public commitments to maintain a consistent self-identity.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_consistency"
+      ]
+    },
+    {
+      "moment_id": "moment_unity_fusion",
+      "moment_type": "Belief",
+      "statement": "Another individual is not just 'like' me but 'of' me (shared identity), triggering automatic willingness to sacrifice self-interest for them.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_unity"
+      ]
+    },
+    {
+      "moment_id": "moment_ethical_alignment",
+      "moment_type": "Desire",
+      "statement": "The need to work in an environment that matches one's moral values to avoid the fatigue and burnout of moral stress.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_moral_stress",
+        "frame_organizational_ethics"
+      ]
+    },
+    {
+      "moment_id": "moment_implementation_intention",
+      "moment_type": "Intention",
+      "statement": "To execute a specific goal-oriented action immediately upon encountering a pre-defined environmental cue (If/When-Then).",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_if_when_then_plan"
+      ]
+    }
+  ],
+  "teleology": {
+    "goals": [
+      {
+        "goal_id": "goal_presuasion",
+        "target_outcome": "Pre-Suasion: The creation of a privileged moment of receptivity prior to a message."
+      },
+      {
+        "goal_id": "goal_compliance",
+        "target_outcome": "Assent: Increasing the likelihood of a 'Yes' response to a request."
+      },
+      {
+        "goal_id": "goal_trust",
+        "target_outcome": "Credibility: Establishing the communicator as both knowledgeable and honest."
+      },
+      {
+        "goal_id": "goal_unity",
+        "target_outcome": "We-ness: Creating a sense of shared identity and fusion between communicator and audience."
+      },
+      {
+        "goal_id": "goal_behavioral_persistence",
+        "target_outcome": "Lasting Change: Ensuring that initial changes in attitude result in durable behavior."
+      },
+      {
+        "goal_id": "goal_rational_judgment",
+        "target_outcome": "Correction: Neutralizing unwanted bias or emotional influence to make accurate decisions."
+      },
+      {
+        "goal_id": "goal_organizational_health",
+        "target_outcome": "Ethical Culture: Avoiding the triple-tumor structure of dishonesty (poor performance, turnover, fraud)."
+      }
+    ],
+    "prescribed_actions": [
+      {
+        "action_id": "act_single_chute_question",
+        "action_name": "Ask Single-Chute Questions",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_presuasion",
+          "goal_compliance"
+        ]
+      },
+      {
+        "action_id": "act_manage_background",
+        "action_name": "Manage Background Cues",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_presuasion"
+        ]
+      },
+      {
+        "action_id": "act_use_mystery",
+        "action_name": "Structure Communication as a Mystery",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_presuasion"
+        ]
+      },
+      {
+        "action_id": "act_give_first",
+        "action_name": "Provide Meaningful, Unexpected, Customized Gifts First",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_compliance"
+        ]
+      },
+      {
+        "action_id": "act_highlight_similarity",
+        "action_name": "Highlight Genuine Similarities and Compliments",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_compliance"
+        ]
+      },
+      {
+        "action_id": "act_admit_weakness",
+        "action_name": "Admit a Weakness Early (Before a Strength)",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_trust",
+          "goal_compliance"
+        ]
+      },
+      {
+        "action_id": "act_request_advice",
+        "action_name": "Request 'Advice' Instead of 'Opinion'",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_unity"
+        ]
+      },
+      {
+        "action_id": "act_synchronize",
+        "action_name": "Engage in Synchronous Activity (Music, Movement)",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_unity"
+        ]
+      },
+      {
+        "action_id": "act_use_family_language",
+        "action_name": "Use Familial Language and Images",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_unity"
+        ]
+      },
+      {
+        "action_id": "act_if_when_then",
+        "action_name": "Formulate If/When-Then Plans",
+        "mitigates_limiting_moment_ids": [
+          "moment_associative_readiness"
+        ],
+        "satisfies_goal_ids": [
+          "goal_behavioral_persistence"
+        ]
+      },
+      {
+        "action_id": "act_correction_reminder",
+        "action_name": "Pose Specific Questions/Reminders of Bias Sources",
+        "mitigates_limiting_moment_ids": [
+          "moment_focusing_illusion",
+          "moment_causal_presumption"
+        ],
+        "satisfies_goal_ids": [
+          "goal_rational_judgment"
+        ]
+      },
+      {
+        "action_id": "act_consider_opposite",
+        "action_name": "Deliberately Consider the Opposite",
+        "mitigates_limiting_moment_ids": [
+          "moment_positive_test_strategy"
+        ],
+        "satisfies_goal_ids": [
+          "goal_rational_judgment"
+        ]
+      },
+      {
+        "action_id": "act_incentivize_ethics",
+        "action_name": "Incentivize and Measure Ethical Conduct",
+        "mitigates_limiting_moment_ids": [],
+        "satisfies_goal_ids": [
+          "goal_organizational_health"
+        ]
+      }
+    ]
+  },
+  "graph_edges": [
+    {
+      "subject_id": "conc_perceived_importance",
+      "predicate": "dul:classifies",
+      "object_id": "moment_focusing_illusion",
+      "rationale": "The concept of Perceived Importance defines the cognitive error where attention inflates value."
+    },
+    {
+      "subject_id": "conc_perceived_causality",
+      "predicate": "dul:classifies",
+      "object_id": "moment_causal_presumption",
+      "rationale": "The concept of Perceived Causality explains the mental leap that assumes focal objects are causes."
+    },
+    {
+      "subject_id": "conc_single_chute_question",
+      "predicate": "dul:classifies",
+      "object_id": "moment_positive_test_strategy",
+      "rationale": "The Single-Chute Question mechanism triggers the biased mental verification process known as the positive test strategy."
+    },
+    {
+      "subject_id": "conc_zeigarnik_effect",
+      "predicate": "dul:classifies",
+      "object_id": "moment_craving_closure",
+      "rationale": "The Zeigarnik Effect is the psychological classification for the mental tension and craving to complete unfinished tasks."
+    },
+    {
+      "subject_id": "conc_opener",
+      "predicate": "dul:classifies",
+      "object_id": "moment_associative_readiness",
+      "rationale": "The Opener is the mechanism that triggers the state of associative readiness in the recipient."
+    },
+    {
+      "subject_id": "conc_reciprocation",
+      "predicate": "dul:classifies",
+      "object_id": "moment_reciprocation_obligation",
+      "rationale": "The principle of Reciprocation categorizes the internal feeling of indebtedness."
+    },
+    {
+      "subject_id": "conc_liking",
+      "predicate": "dul:classifies",
+      "object_id": "moment_liking_rapport",
+      "rationale": "The principle of Liking defines the psychological inclination to agree with those we find similar or complimentary."
+    },
+    {
+      "subject_id": "conc_social_proof",
+      "predicate": "dul:classifies",
+      "object_id": "moment_social_proof_reliance",
+      "rationale": "Social Proof classifies the belief that the actions of many others validate a behavior."
+    },
+    {
+      "subject_id": "conc_authority",
+      "predicate": "dul:classifies",
+      "object_id": "moment_authority_trust",
+      "rationale": "The principle of Authority categorizes the reliance on experts for decision-making shortcuts."
+    },
+    {
+      "subject_id": "conc_scarcity",
+      "predicate": "dul:classifies",
+      "object_id": "moment_scarcity_craving",
+      "rationale": "The Scarcity principle explains the intense desire generated by limited availability."
+    },
+    {
+      "subject_id": "conc_consistency",
+      "predicate": "dul:classifies",
+      "object_id": "moment_consistency_drive",
+      "rationale": "Consistency classifies the psychological drive to align current behavior with past commitments."
+    },
+    {
+      "subject_id": "conc_unity",
+      "predicate": "dul:classifies",
+      "object_id": "moment_unity_fusion",
+      "rationale": "Unity defines the experience of shared identity and the dissolution of boundaries between self and other."
+    },
+    {
+      "subject_id": "conc_moral_stress",
+      "predicate": "dul:classifies",
+      "object_id": "moment_ethical_alignment",
+      "rationale": "Moral Stress defines the psychological conflict that drives the need for ethical alignment."
+    },
+    {
+      "subject_id": "conc_if_when_then_plan",
+      "predicate": "dul:classifies",
+      "object_id": "moment_implementation_intention",
+      "rationale": "The If/When-Then Plan is the theoretical mechanism that structures the mental state of implementation intention."
+    },
+    {
+      "subject_id": "moment_implementation_intention",
+      "predicate": "ufo:motivates",
+      "object_id": "act_if_when_then",
+      "rationale": "The internal intention to act upon a cue drives the execution of the If/When-Then plan."
+    },
+    {
+      "subject_id": "moment_ethical_alignment",
+      "predicate": "ufo:motivates",
+      "object_id": "act_incentivize_ethics",
+      "rationale": "The desire to avoid moral stress motivates the organizational action to incentivize ethical conduct."
+    },
+    {
+      "subject_id": "act_single_chute_question",
+      "predicate": "ufo:requires",
+      "object_id": "conc_single_chute_question",
+      "rationale": "Asking this specific type of question relies on the Single-Chute mechanism to bias attention."
+    },
+    {
+      "subject_id": "act_manage_background",
+      "predicate": "ufo:requires",
+      "object_id": "conc_persuasive_geography",
+      "rationale": "Managing background cues utilizes the concept of Persuasive Geography to trigger associations."
+    },
+    {
+      "subject_id": "act_use_mystery",
+      "predicate": "ufo:requires",
+      "object_id": "conc_magnetizer",
+      "rationale": "Structuring communication as a mystery requires the use of Magnetizers (specifically the Mysterious) to hold attention."
+    },
+    {
+      "subject_id": "act_give_first",
+      "predicate": "ufo:requires",
+      "object_id": "conc_reciprocation",
+      "rationale": "Giving a gift first specifically activates the Reciprocation mechanism."
+    },
+    {
+      "subject_id": "act_highlight_similarity",
+      "predicate": "ufo:requires",
+      "object_id": "conc_liking",
+      "rationale": "Highlighting similarities activates the Liking mechanism to build rapport."
+    },
+    {
+      "subject_id": "act_admit_weakness",
+      "predicate": "ufo:requires",
+      "object_id": "conc_authority",
+      "rationale": "Admitting a weakness is a tactic to establish the trustworthiness component of Authority."
+    },
+    {
+      "subject_id": "act_request_advice",
+      "predicate": "ufo:requires",
+      "object_id": "conc_unity",
+      "rationale": "Requesting advice creates a sense of co-creation, activating the Unity principle."
+    },
+    {
+      "subject_id": "act_synchronize",
+      "predicate": "ufo:requires",
+      "object_id": "conc_unity",
+      "rationale": "Engaging in synchronous activity utilizes the 'Acting Together' pathway of the Unity principle."
+    },
+    {
+      "subject_id": "act_use_family_language",
+      "predicate": "ufo:requires",
+      "object_id": "conc_unity",
+      "rationale": "Using familial language utilizes the 'Being Together' (kinship) pathway of the Unity principle."
+    },
+    {
+      "subject_id": "act_if_when_then",
+      "predicate": "ufo:requires",
+      "object_id": "conc_if_when_then_plan",
+      "rationale": "Formulating these plans inherently requires the If/When-Then mechanism."
+    },
+    {
+      "subject_id": "act_correction_reminder",
+      "predicate": "ufo:mitigates",
+      "object_id": "moment_focusing_illusion",
+      "rationale": "Reminding oneself of bias sources is prescribed to neutralize the Focusing Illusion."
+    },
+    {
+      "subject_id": "act_correction_reminder",
+      "predicate": "ufo:mitigates",
+      "object_id": "moment_causal_presumption",
+      "rationale": "Asking specific questions about true causes mitigates the tendency to presume the focal is causal."
+    },
+    {
+      "subject_id": "act_consider_opposite",
+      "predicate": "ufo:mitigates",
+      "object_id": "moment_positive_test_strategy",
+      "rationale": "Deliberately considering the opposite counters the bias of looking only for confirmations."
+    },
+    {
+      "subject_id": "act_if_when_then",
+      "predicate": "ufo:mitigates",
+      "object_id": "moment_associative_readiness",
+      "rationale": "Using pre-loaded plans prevents distraction by competing concepts (associative readiness) in the heat of the moment."
+    },
+    {
+      "subject_id": "act_single_chute_question",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_presuasion",
+      "rationale": "Biasing the inquiry channels attention to create a pre-suasive state."
+    },
+    {
+      "subject_id": "act_single_chute_question",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_compliance",
+      "rationale": "The biased question increases the likelihood of a 'yes' response."
+    },
+    {
+      "subject_id": "act_manage_background",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_presuasion",
+      "rationale": "Optimizing background cues creates the privileged moment required for pre-suasion."
+    },
+    {
+      "subject_id": "act_use_mystery",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_presuasion",
+      "rationale": "Mystery captures and holds attention, establishing the receptive state for the message."
+    },
+    {
+      "subject_id": "act_give_first",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_compliance",
+      "rationale": "Invoking reciprocity significantly increases the rate of compliance."
+    },
+    {
+      "subject_id": "act_highlight_similarity",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_compliance",
+      "rationale": "Building rapport through similarity leads to higher assent."
+    },
+    {
+      "subject_id": "act_admit_weakness",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_trust",
+      "rationale": "Establishing honesty early makes the communicator appear more credible."
+    },
+    {
+      "subject_id": "act_admit_weakness",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_compliance",
+      "rationale": "Increased trust leads to higher compliance with subsequent arguments."
+    },
+    {
+      "subject_id": "act_request_advice",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_unity",
+      "rationale": "Co-creation through advice fosters a sense of 'we-ness' or Unity."
+    },
+    {
+      "subject_id": "act_synchronize",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_unity",
+      "rationale": "Acting in unison psychologically fuses the participants into a unit."
+    },
+    {
+      "subject_id": "act_use_family_language",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_unity",
+      "rationale": "Language invoking kinship triggers the powerful 'we' response of Unity."
+    },
+    {
+      "subject_id": "act_if_when_then",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_behavioral_persistence",
+      "rationale": "Automating the response to cues ensures the behavior persists despite distraction."
+    },
+    {
+      "subject_id": "act_correction_reminder",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_rational_judgment",
+      "rationale": "Correcting for focus and causality biases leads to more accurate, rational decisions."
+    },
+    {
+      "subject_id": "act_consider_opposite",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_rational_judgment",
+      "rationale": "Neutralizing the positive test strategy allows for unbiased evaluation."
+    },
+    {
+      "subject_id": "act_incentivize_ethics",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_organizational_health",
+      "rationale": "Aligning incentives with ethics removes the triple tumors of dishonesty."
+    }
+  ]
+}

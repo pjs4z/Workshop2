@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "d6798521898427b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "2345495deccc41ea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6151d9f93359ee95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "taming-the-molecule-of-more_productivity/Innovation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Innovation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df9030e4bf66c2fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "551cc87fdc9acfb8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dab9e70a735d6045",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0efef4b1147086fb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "066aa7b6a0f58951",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "658087f3a9dd3bec",
+    "type": "split",
+    "children": [
+      {
+        "id": "eefd234b63089aa5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b086c2f715ca990",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "taming-the-molecule-of-more_productivity/Innovation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Innovation"
+            }
+          },
+          {
+            "id": "27eee5f28d0a0127",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "taming-the-molecule-of-more_productivity/Innovation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Innovation"
+            }
+          },
+          {
+            "id": "8234ba544c782499",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a96726fff58a5cdd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9ef053dceb965870",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "taming-the-molecule-of-more_productivity/Innovation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Innovation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "6151d9f93359ee95",
+  "lastOpenFiles": [
+    "taming-the-molecule-of-more_productivity/The_Unconscious_Mind.md",
+    "taming-the-molecule-of-more_productivity/The_Promise_Itch.md",
+    "taming-the-molecule-of-more_productivity/The_Bedside_Notebook.md",
+    "taming-the-molecule-of-more_productivity/Taming_the_Biological_Imperative.md",
+    "taming-the-molecule-of-more_productivity/Modern_Human.md",
+    "taming-the-molecule-of-more_productivity/Familiarity.md",
+    "taming-the-molecule-of-more_productivity/Innovation.md",
+    "taming-the-molecule-of-more_productivity/The_Eisenhower_Matrix.md",
+    "taming-the-molecule-of-more_productivity/Tragic_Optimism.md",
+    "taming-the-molecule-of-more_productivity/Unrefined_Ideas.md",
+    "taming-the-molecule-of-more_productivity/Hypnagogia.md",
+    "taming-the-molecule-of-more_productivity/Cognitive_Fixation.md"
+  ]
+}

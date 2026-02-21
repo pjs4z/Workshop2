@@ -1,176 +1,172 @@
-Here is the UFO-B (Perdurant) mapping of the temporal mechanics described in the text. These entities describe the blind, physiological timeline of the neurocognitive system—the machinery of cause and effect that operates prior to conscious intervention.
+---
+aliases: [Cognitive Agent, The Target, The Recipient]
+ufo_layer: UFO-A
+ufo_primitive: Kind
+---
+# Human Cognitive Agent
+
+## Ontological Definition
+The **Human Cognitive Agent** is the rigid, substantial Kind representing the individual subject of influence. Ontologically, this entity is the independent bearer of all psychological qualities and dispositions necessary for pre-suasion mechanics. It is the locus where attention is limited, where associations are stored, and where the "Self" is constructed.
+
+Unlike a mere physical object, the Cognitive Agent is characterized by its capacity to bear Intentional Moments (beliefs, desires) and its susceptibility to *Associative Coherence*. It serves as the "Host" for the finite resource of Attention and the latent neural pathways that link concepts (e.g., linking "clouds" to "comfort").
+
+## Relational Calculus
+- **bearerOf:** [[Attentional Focus]] *(Quality)*
+- **bearerOf:** [[Associative Network]] *(Disposition)*
+- **bearerOf:** [[Need for Closure]] *(Disposition)*
+- **participatesIn:** [[Unity Relation]] *(Relator)*
+
+---
 
 ```markdown
 ---
-aliases: [Positive RPE Context, The Good Surprise]
-ufo_layer: UFO-B
-ufo_primitive: Situation
+aliases: [The Opener, Pre-Suasive Stimulus, The Prime]
+ufo_layer: UFO-A
+ufo_primitive: Role
 ---
-# The Unpredicted Reward State
+# Pre-Suasive Opener
 
 ## Ontological Definition
-This is a specific snapshot of reality where the external environment delivers an outcome that mathematically exceeds the internal prediction of the [[Human Neurocognitive System]]. It is the precise moment *t* where the value of a stimulus ($V_{actual}$) is greater than the expected value ($V_{expected}$).
+The **Pre-Suasive Opener** is an anti-rigid Role played by a Physical Object or Abstract Concept when it is positioned immediately preceding a core message. An entity (such as a generic picture of a cloud, a specific question, or a sugar-free cookie) enters this Role solely through its *relational context*—specifically, its temporal placement before a persuasive request.
 
-In this frozen configuration, the agent has encountered a novelty—a calorie-dense food, a social accolade, or a new potential mate—that was not fully accounted for in their previous model of the world. This situation is the structural precondition for desire; it is the spark gap across which the neurochemical charge must jump. It does not ask for permission; it simply presents a delta of value that the brain is biologically mandated to process.
+In this Role, the entity ceases to be neutral background noise and becomes a functional tool for "frontloading" attention. Its structural purpose is to trigger specific latent dispositions within the [[Human Cognitive Agent]], thereby altering the agent's receptivity before the actual message is processed.
 
 ## Relational Calculus
-- **triggers:** [[Reward Prediction Error]] *(The unexpected surplus awakens the comparator mechanism).*
-```
+- **inheresIn:** [[Physical Stimulus]] *(The underlying Substantial, e.g., the Cookie, the Image)*
+- **externallyDependentOn:** [[Persuasion Protocol]] *(The Relator/Plan determining its usage)*
+- **trigger:** [[Associative Network]] *(The Disposition it is designed to activate)*
+
+---
 
 ```markdown
 ---
-aliases: [The "Itch", The Wanting Spike, Motivational Salience]
-ufo_layer: UFO-B
-ufo_primitive: Event
+aliases: [The Privileged Moment, Receptivity State]
+ufo_layer: UFO-A
+ufo_primitive: Phase
 ---
-# The Dopaminergic Surge
+# The Receptive Phase
 
 ## Ontological Definition
-A dynamic, high-velocity neurochemical event. It is the physiological unfolding of the "Molecule of More" flooding the synaptic clefts. This process transforms the agent's state from passive observation to active, visceral pursuit. It is not a feeling of happiness; it is a mechanism of *propulsion*.
+The **Receptive Phase** (or "Privileged Moment") is a contingent, intrinsic state of the [[Human Cognitive Agent]]. It represents a temporary alteration in the agent's internal configuration where standard resistance mechanisms are suspended or bypassed.
 
-During this interval, the brain suppresses [[Here & Now Satiety]] and locks focus exclusively onto the [[Extrapersonal Space]]. The event functions as a biological mandate: it reorients the organism's entire metabolic and attentional apparatus toward the acquisition of the triggering object. It is the "drag-you-by-the-neck" force described in the semaglutide narrative, playing out as an inevitable chemical cascade.
+This Phase is distinct from the agent's "Baseline Phase." During the Receptive Phase, the agent's decision-making weightings are biased toward a specific concept (e.g., helpfulness, safety, adventurousness) due to the lingering activation of an associative prime. It is a "window of opportunity" structured by the agent's altered attentional landscape.
 
 ## Relational Calculus
-- **manifests:** [[Dopaminergic Desire]] *(The event is the active expression of the latent capacity to want).*
-- **bringsAbout:** [[Hyper-Motivational Arousal]] *(The process results in a state of high-alert craving).*
-```
+- **inheresIn:** [[Human Cognitive Agent]]
+- **characterizedBy:** [[Biased Weighting Quality]] *(The temporary skew in value assessment)*
+
+---
 
 ```markdown
 ---
-aliases: [The Chase State, High-Beta State]
-ufo_layer: UFO-B
-ufo_primitive: Situation
+aliases: [Attention, Focal Capacity]
+ufo_layer: UFO-A
+ufo_primitive: Quality
 ---
-# Hyper-Motivational Arousal
+# Attentional Focus
 
 ## Ontological Definition
-A distinct state of affairs characterized by a narrow attentional field and high physiological tension. In this configuration, the [[Human Neurocognitive System]] is completely oriented toward the future. The "Have" chemicals are chemically inhibited; satisfaction is structurally impossible in this state because the system is designed solely for pursuit.
+**Attentional Focus** is a measurable, continuous Quality inhering in the [[Human Cognitive Agent]]. It represents the magnitude and direction of the agent's cognitive resources at any given instant.
 
-This is the state of Winnie-the-Pooh *reaching* for the honey, or Rainn Wilson *striving* for movie stardom. The agent is locked in a loop of anticipation. This situation persists until one of two events occurs: the object is acquired (collapse), or the receptors fatigue (downregulation).
+Crucially, this Quality adheres to a "Zero-Sum" conservation law, often described as the "Single-Chute" limitation. If the value of Attentional Focus is high on Object A, it must structurally be near-zero for Object B. This exclusivity allows for the *Focusing Illusion*—the structural reality that whatever possesses the highest value of Attentional Focus is perceived by the Agent as having the highest causal importance.
 
 ## Relational Calculus
-- **triggers:** [[Control Dopamine]] *(The intense energy triggers the calculation circuit to devise a plan to get the object).*
-```
+- **inheresIn:** [[Human Cognitive Agent]]
+- **mappedTo:** [[Focusable Object]] *(The Entity currently receiving the value)*
+
+---
 
 ```markdown
 ---
-aliases: [The Acquisition Event, The Kill of the Thrill]
-ufo_layer: UFO-B
-ufo_primitive: Event
+aliases: [Associative Coherence, Neural Priming Architecture]
+ufo_layer: UFO-A
+ufo_primitive: Disposition
 ---
-# Transposition to Peripersonal Space
+# Associative Network
 
 ## Ontological Definition
-The critical transition event where the Object of Desire physically moves from the [[Extrapersonal Space]] (the realm of "Not Yet") into the [[Peripersonal Space]] (the realm of "Now"). This is the mechanical act of consumption, possession, or achievement.
+The **Associative Network** is a complex Disposition (or potentiality) inhering in the [[Human Cognitive Agent]]. It constitutes the "physics" of thought, defined by the latent probability that activating Concept X will bio-chemically ready and activate Concept Y.
 
-Crucially, this event acts as a "kill switch" for the previous dopamine surge. Because [[Dopaminergic Desire]] can only process what is *absent*, the presence of the object mechanically forces the dopamine circuit to shut down. This is not a psychological choice, but a logical necessity of the circuit's architecture: one cannot want what one already has.
+This Disposition is the structural foundation of "Pre-Suasion." It remains silent until triggered by a [[Pre-Suasive Opener]]. For example, the network contains the latent connection between "Clouds" and "Softness." The connection exists as a potential structure even when the agent is not thinking about clouds; it is a mechanism waiting to be fired.
 
 ## Relational Calculus
-- **manifests:** [[Here & Now Satiety]] *(The event actualizes the capacity to consume and process the present).*
-- **bringsAbout:** [[Post-Acquisition Dissatisfaction]] *(The shutting off of dopamine results in the 'let down' or the baseline state).*
-```
+- **inheresIn:** [[Human Cognitive Agent]]
+- **triggeredBy:** [[Pre-Suasive Opener]]
+- **manifestsAs:** [[Biased Weighting Quality]] *(The resulting shift in perception)*
+
+---
 
 ```markdown
 ---
-aliases: [The Dr. Pepper Environment, Supernormal Stimulus Field]
-ufo_layer: UFO-B
-ufo_primitive: Situation
+aliases: [Need for Closure, Zeigarnik Disposition]
+ufo_layer: UFO-A
+ufo_primitive: Disposition
 ---
-# High-Frequency Stimulation Environment
+# Zeigarnik Disposition
 
 ## Ontological Definition
-A persistent state of affairs where the [[Human Neurocognitive System]] is subjected to rapid, repeated, or intense dopaminergic triggers (e.g., the "four or five cans of Dr. Pepper a day"). In this situation, the synaptic gap is chronically flooded with neurotransmitters.
+The **Zeigarnik Disposition** is a specific cognitive vulnerability (Disposition) inhering in the [[Human Cognitive Agent]]. It is the latent mechanism that generates cognitive tension in the presence of incomplete information.
 
-This configuration represents a homeostatic threat to the biological system. The organism cannot sustain this level of excitation without damage, creating the structural necessity for a defensive biological response. It is the environmental precondition for the mechanism of tolerance.
+Structurally, this Disposition operates as a retention engine. When the environmental condition (Situation) involves an "Open Loop" or "Unfinished Task," this Disposition manifests by hoarding [[Attentional Focus]] and preventing cognitive disengagement. It is the structural guarantee that mystery magnets attention.
 
 ## Relational Calculus
-- **triggers:** [[Neuroadaptive Tolerance]] *(The over-abundance of signal triggers the receptor system to defend itself).*
-```
+- **inheresIn:** [[Human Cognitive Agent]]
+- **triggeredBy:** [[Unresolved Narrative Situation]]
+
+---
 
 ```markdown
 ---
-aliases: [Numbing, The "More to Feel Less" Process]
-ufo_layer: UFO-B
-ufo_primitive: Event
+aliases: [We-ness, Shared Identity, Kinship]
+ufo_layer: UFO-A
+ufo_primitive: Relator
 ---
-# Receptor Downregulation
+# Unity Relation
 
 ## Ontological Definition
-The biological process of homeostatic correction. In response to the [[High-Frequency Stimulation Environment]], the brain actively strips away dopamine receptors or reduces their sensitivity. This is a blind, protective mechanism designed to maintain equilibrium.
+**Unity** is a social Relator—an objective, binding entity that connects two or more [[Human Cognitive Agents]]. It acts as the truth-maker for the claim "We are one."
 
-As this event unfolds over time, it physically alters the substrate of the [[Human Neurocognitive System]]. The "volume knob" of pleasure is mechanically turned down. The inevitable result is that the same stimulus which previously caused a surge now produces a null response, shifting the agent into a state of deficit.
+This Relator is not merely a feeling; it is a structural categorization constructed through specific conditions: **Co-Genealogy** (kinship), **Co-Location** (place), or **Synchronous Action** (co-movement). When this Relator exists between a Persuader and a Target, it fundamentally alters the rules of exchange, dissolving the barrier between "Self" and "Other" and creating a fused entity where self-interest becomes collective interest.
 
 ## Relational Calculus
-- **manifests:** [[Neuroadaptive Tolerance]] *(The event is the active adjusting of the sensitivity baseline).*
-- **bringsAbout:** [[The Anhedonic Baseline]] *(The process leaves the system in a state of reduced capacity for pleasure).*
-```
+- **mediates:** [[Role: In-Group Member (Self)]], [[Role: In-Group Member (Other)]]
+- **groundedIn:** [[Synchronous Action]] *OR* [[Shared Geography]]
+
+---
 
 ```markdown
 ---
-aliases: [The Numb State, The Boredom Trap]
-ufo_layer: UFO-B
-ufo_primitive: Situation
+aliases: [The Triple Tumor, Organizational Cancer]
+ufo_layer: UFO-A
+ufo_primitive: Disposition
 ---
-# The Anhedonic Baseline
+# Systemic Ethical Corrosion
 
 ## Ontological Definition
-A rigid state of neurochemical insensitivity. Here, the [[Human Neurocognitive System]] possesses a sparse density of receptors. Normal "Here & Now" stimuli (a sunset, a conversation, plain water) fail to register because the threshold for activation is set impossibly high due to previous [[Receptor Downregulation]].
+**Systemic Ethical Corrosion** (the "Triple Tumor Structure") is a complex, destructive Disposition inhering in a [[Social Organization]]. It represents the inevitable structural vulnerability of a group that mandates dishonesty.
 
-This is the situation of the "Silicon Valley Fasters" prior to their intervention. It is a state of structural dissatisfaction where the agent is mechanically incapable of feeling subtle pleasures. This state creates a causal pressure for ever-increasing stimulation (addiction) just to feel "normal."
+It is defined by a specific causal necessity: if an organization possesses the internal rule "Deceive Outsiders," this Disposition is the latent mechanism that guarantees three internal manifestations: **Moral Stress** (degrading performance), **Moral Flight** (expulsion of honest agents), and **Malfeasance** (retention of dishonest agents). It is a "self-destruct" mechanism built into the ontology of deceitful systems.
 
 ## Relational Calculus
-- **triggers:** [[Neuroadaptive Tolerance]] *(The specific state of 'numbness' triggers the potential for Upregulation if stimulation is removed).*
-```
+- **inheresIn:** [[Social Organization]]
+- **triggeredBy:** [[Policy of External Deceit]]
+
+---
 
 ```markdown
 ---
-aliases: [The Reset, Dopamine Fasting Process]
-ufo_layer: UFO-B
-ufo_primitive: Event
+aliases: [If-When-Then Plan, Implementation Intention]
+ufo_layer: UFO-A
+ufo_primitive: Disposition
 ---
-# Receptor Upregulation
+# Algorithmic Self-Plan
 
 ## Ontological Definition
-The slow, restorative biological process that occurs when the [[Human Neurocognitive System]] is deprived of high-intensity triggers (the "Dopamine Fast"). In the absence of the flood, the brain detects a signal deficit and mechanically begins to re-grow receptors and increase sensitivity.
+An **Algorithmic Self-Plan** is an artificial Disposition intentionally constructed and inscribed into the [[Human Cognitive Agent]]. Unlike natural dispositions (like the fear response), this is a "software" patch created by the agent itself.
 
-This is the inverse of downregulation. It is the physiological healing mechanism described in the text as "resensitization." It is not an intellectual insight, but a tissue-level repair job that lowers the threshold required for satisfaction.
-
-## Relational Calculus
-- **manifests:** [[Neuroadaptive Tolerance]] *(The event is the upward adjustment of the sensitivity quality).*
-- **bringsAbout:** [[Homeostatic Equilibrium]] *(The process restores the capacity to enjoy subtle stimuli).*
-```
-
-```markdown
----
-aliases: [The Titanic Mindset, The Rut]
-ufo_layer: UFO-B
-ufo_primitive: Situation
----
-# Cognitive Fixation State
-
-## Ontological Definition
-A static mental configuration where the [[Control Dopamine]] circuit has excessively inhibited the novelty-seeking pathways. The agent perceives objects strictly through their established labels and utility functions (e.g., "Iceberg = Ship Sinker").
-
-In this situation, the neural pathways are deeply entrenched ("The Rut"). The brain is optimizing for efficiency and safety, strictly filtering out "noise." However, this efficiency creates a blindness to novel affordances. This is the precondition that requires a disruption—such as sleep or a "steel ball" drop—to break.
+It takes the form of a conditional rule ("If Situation X occurs, then I will do Action Y"). Once established, it functions as an automated mechanism, bypassing the need for conscious [[Attentional Focus]] or willpower at the moment of action. It is a "sleeping" decision waiting for a specific environmental cue to wake it.
 
 ## Relational Calculus
-- **triggers:** [[Cognitive Fixation]] *(The rigid environment reinforces the tendency to rely on known patterns).*
-```
-
-```markdown
----
-aliases: [The Edison Nap, Hypnagogic Drift]
-ufo_layer: UFO-B
-ufo_primitive: Event
----
-# Associative Drift
-
-## Ontological Definition
-The transient neurocognitive process where the inhibition of the prefrontal cortex relaxes (often during the onset of sleep or deep relaxation). During this event, the strict filters of [[Control Dopamine]] weaken, allowing the [[Divergent Thinking]] mode to mix unrelated concepts freely.
-
-This is the mechanical "mixing of the pot." It creates a temporal window where the "steel ball" drops—where the logical censor is offline, and raw, unverified data points connect to form new structures. It disrupts the [[Cognitive Fixation State]].
-
-## Relational Calculus
-- **manifests:** [[Divergent Thinking]] *(The event is the active play of the wide-net associative mode).*
-- **bringsAbout:** [[The Novel Synthesis]] *(The process creates a new, potential solution or idea).*
-```
+- **inheresIn:** [[Human Cognitive Agent]]
+- **createdBy:** [[Intention]] *(The conscious act that installed the plan)*
+- **triggeredBy:** [[Anticipated Cue]]
