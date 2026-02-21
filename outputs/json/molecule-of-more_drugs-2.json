@@ -1,0 +1,592 @@
+{
+  "semantic_frames": [
+    {
+      "frame_id": "frame_wanting_vs_liking",
+      "description_name": "The Dopamine vs. H&N Paradigm",
+      "definition": "A theoretical framework distinguishing between two distinct neurochemical systems: one driving the pursuit of future rewards (Wanting) and one enabling the enjoyment of the present moment (Liking).",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_dopamine_desire",
+          "term": "Dopamine (The Desire)",
+          "concept_type": "Role",
+          "definition": "The molecule of 'wanting' and future-orientation. It generates motivation, excitement, and craving to acquire resources for survival, but is incapable of generating satisfaction or enjoyment."
+        },
+        {
+          "concept_id": "conc_hn_molecules",
+          "term": "H&Ns (Here and Nows)",
+          "concept_type": "Role",
+          "definition": "A collective term for neurotransmitters (endorphins, endocannabinoids, etc.) responsible for 'liking.' They process real-world sensory experience, satisfaction, and enjoyment in the present moment."
+        },
+        {
+          "concept_id": "conc_phantom_future",
+          "term": "The Phantom Future",
+          "concept_type": "Parameter",
+          "definition": "The abstract conceptual space where dopamine operates. It consists of idealized possibilities and 'what could be,' rather than reality."
+        },
+        {
+          "concept_id": "conc_concrete_present",
+          "term": "The Concrete Present",
+          "concept_type": "Parameter",
+          "definition": "The reality-based conceptual space where H&Ns operate. It consists of actual sensory experiences (taste, touch, emotion) happening in real-time."
+        },
+        {
+          "concept_id": "conc_buyers_remorse",
+          "term": "Buyer's Remorse",
+          "concept_type": "Mechanism",
+          "definition": "A phenomenon occurring when the transition from Dopaminergic expectation (future) to H&N experience (present) fails; the reality of possession is less intense than the excitement of pursuit."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_reward_prediction",
+      "description_name": "The Reward Prediction Mechanism",
+      "definition": "The system by which the brain learns from the environment, driven by the difference between expectation and reality.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_reward_prediction_error",
+          "term": "Reward Prediction Error",
+          "concept_type": "Mechanism",
+          "definition": "A surge of dopamine triggered only when a reward is unexpected. It signals the brain to 'pay attention' and learn, fading once the reward becomes predictable."
+        },
+        {
+          "concept_id": "conc_dopamine_shutdown",
+          "term": "Dopamine Shutdown",
+          "concept_type": "Mechanism",
+          "definition": "A drop in dopamine firing rates to zero when an expected reward fails to materialize, resulting in subjective feelings of resentment and deprivation."
+        },
+        {
+          "concept_id": "conc_dopaminergic_habituation",
+          "term": "Habituation",
+          "concept_type": "Mechanism",
+          "definition": "The process by which dopamine suppresses its own activity as novel events become predictable, eliminating the 'rush' of the experience."
+        }
+      ]
+    },
+    {
+      "frame_id": "frame_addiction_circuitry",
+      "description_name": "The Hijacked Desire Circuit",
+      "definition": "The structural model explaining how supernormal stimuli (drugs, porn, gambling) bypass natural satiety mechanisms to create pathological behavior.",
+      "defined_concepts": [
+        {
+          "concept_id": "conc_desire_circuit",
+          "term": "The Desire Circuit",
+          "concept_type": "Mechanism",
+          "definition": "The mesolimbic pathway (VTA to Nucleus Accumbens) evolved to promote survival behaviors (food, sex) by generating urge and motivation."
+        },
+        {
+          "concept_id": "conc_the_hijack",
+          "term": "The Hijack",
+          "concept_type": "Mechanism",
+          "definition": "The process by which artificial agents (drugs/technology) stimulate the desire circuit far more intensely than natural rewards, repurposing survival instincts into enslavement to the agent."
+        },
+        {
+          "concept_id": "conc_dopamine_control_circuit",
+          "term": "Dopamine Control Circuit",
+          "concept_type": "Role",
+          "definition": "The opposing force to the Desire Circuit, located in the frontal lobes. It is rational, cold, and calculating, using long-term planning to maximize future resources."
+        },
+        {
+          "concept_id": "conc_impulsive_behavior",
+          "term": "Impulsive Behavior",
+          "concept_type": "Parameter",
+          "definition": "A state where the Desire Circuit overpowers the Control Circuit, placing excessive value on immediate pleasure over long-term consequences."
+        }
+      ]
+    }
+  ],
+  "situations": [
+    {
+      "situation_id": "sit_burger_dilemma",
+      "narrative_summary": "A man on a diet smells burgers, imagines the taste, and succumbs to the urge to buy one. However, the enjoyment decreases with every bite, leaving him feeling nauseated and defeated rather than satisfied.",
+      "satisfies_frame_id": "frame_wanting_vs_liking",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_dopamine_desire",
+          "manifested_as": "The overwhelming urge triggered by the smell and the imagination of the burger, overriding the diet."
+        },
+        {
+          "concept_id": "conc_phantom_future",
+          "manifested_as": "The idealized 'hamburger heaven' the man imagined before taking a bite."
+        },
+        {
+          "concept_id": "conc_concrete_present",
+          "manifested_as": "The actual sensory experience of eating, where enjoyment faded with each bite."
+        },
+        {
+          "concept_id": "conc_buyers_remorse",
+          "manifested_as": "The feeling of defeat and nausea that followed the purchase, as the reality failed to match the expectation."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_andrew_conquests",
+      "narrative_summary": "Andrew, a salesperson and sex addict, spent his life chasing women. The pursuit was thrilling, but the moment he succeeded (often before even reaching the bedroom), his interest vanished, and the women appeared physically different to him\u2014dull and uninteresting.",
+      "satisfies_frame_id": "frame_wanting_vs_liking",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_dopamine_desire",
+          "manifested_as": "The thrill of the chase and the intense motivation to acquire a new partner."
+        },
+        {
+          "concept_id": "conc_dopamine_shutdown",
+          "manifested_as": "The sudden loss of interest and the 'dull gray' feeling the moment the conquest was assured."
+        },
+        {
+          "concept_id": "conc_the_hijack",
+          "manifested_as": "The compulsion to repeat the pattern despite knowing it would not lead to happiness."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_ancestor_berries",
+      "narrative_summary": "An evolutionary ancestor walking the savanna stumbles upon a bush unexpectedly full of berries. The surprise triggers a rush of excitement and focuses her attention, locking the location into memory for future survival.",
+      "satisfies_frame_id": "frame_reward_prediction",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_reward_prediction_error",
+          "manifested_as": "The chemical blast of excitement caused specifically because the berries were a surprise (unexpected reward)."
+        },
+        {
+          "concept_id": "conc_desire_circuit",
+          "manifested_as": "The survival mechanism that instantly sharpened her focus and encoded the memory of the bush."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_berridge_rats",
+      "narrative_summary": "Dr. Kent Berridge injected rats with dopamine boosters vs. H&N boosters. Dopamine-boosted rats drank more sugar water (wanting) but didn't lick their lips. H&N-boosted rats licked their lips furiously (liking/enjoying) but didn't necessarily drink more.",
+      "satisfies_frame_id": "frame_wanting_vs_liking",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_dopamine_desire",
+          "manifested_as": "The behavior of consuming more sugar water without signs of enjoyment."
+        },
+        {
+          "concept_id": "conc_hn_molecules",
+          "manifested_as": "The lip-smacking facial expression indicating sensory pleasure."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_ian_parkinsons_gambling",
+      "narrative_summary": "Ian, a retiree with Parkinson's, was prescribed a dopamine agonist (Cabaser). He suddenly developed a gambling addiction, selling his car and home to feed slot machines, despite previously being frugal. The behavior stopped immediately when he quit the drug.",
+      "satisfies_frame_id": "frame_addiction_circuitry",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_desire_circuit",
+          "manifested_as": "The neural pathway artificially hyper-stimulated by the medication."
+        },
+        {
+          "concept_id": "conc_impulsive_behavior",
+          "manifested_as": "The inability to weigh long-term consequences (losing his home) against the immediate urge to gamble."
+        },
+        {
+          "concept_id": "conc_dopamine_control_circuit",
+          "manifested_as": "The rational part of the brain that was completely overpowered by the chemically enhanced desire."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_noah_porn_addiction",
+      "narrative_summary": "Noah started viewing porn at 15 via slow dial-up (tame images). As technology improved to high-speed broadband, his addiction escalated to extreme videos. He felt he was fighting a chemical war against himself.",
+      "satisfies_frame_id": "frame_addiction_circuitry",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_the_hijack",
+          "manifested_as": "The supernormal stimulation provided by high-speed internet access that overwhelmed his natural satiety."
+        },
+        {
+          "concept_id": "conc_dopaminergic_habituation",
+          "manifested_as": "The progression from 'tame' images to extreme acts as his brain built tolerance to the dopamine hits."
+        }
+      ]
+    },
+    {
+      "situation_id": "sit_office_cake",
+      "narrative_summary": "Deangelo Vickers (Will Ferrell) in The Office eats a corner of cake, yells at himself that he doesn't even want it and it's not good, throws it away, and then immediately grabs another handful to eat.",
+      "satisfies_frame_id": "frame_wanting_vs_liking",
+      "concept_manifestations": [
+        {
+          "concept_id": "conc_dopamine_desire",
+          "manifested_as": "The compulsive hand-to-mouth action of grabbing the cake despite vocal protest."
+        },
+        {
+          "concept_id": "conc_hn_molecules",
+          "manifested_as": "The absence of enjoyment, verbalized as 'It's not even that good.'"
+        }
+      ]
+    }
+  ],
+  "mental_moments": [
+    {
+      "moment_id": "mom_belief_wanting_equals_liking",
+      "moment_type": "Belief",
+      "statement": "The assumption that intense desire for an object guarantees enjoyment upon possessing it.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_dopamine_desire",
+        "conc_hn_molecules",
+        "conc_buyers_remorse"
+      ]
+    },
+    {
+      "moment_id": "mom_desire_insatiable_more",
+      "moment_type": "Desire",
+      "statement": "The ceaseless craving for new resources or stimulation, regardless of current satiety or need.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_dopamine_desire",
+        "conc_phantom_future"
+      ]
+    },
+    {
+      "moment_id": "mom_belief_phantom_superiority",
+      "moment_type": "Belief",
+      "statement": "The worldview that the idealized possibilities of the future are more valuable or 'real' than the concrete experiences of the present.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_phantom_future",
+        "conc_concrete_present"
+      ]
+    },
+    {
+      "moment_id": "mom_desire_reward_prediction_fixation",
+      "moment_type": "Desire",
+      "statement": "The addiction to the 'rush' of unexpected rewards, leading to boredom once a reward becomes predictable.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_reward_prediction_error",
+        "conc_dopaminergic_habituation"
+      ]
+    },
+    {
+      "moment_id": "mom_desire_hijacked_compulsion",
+      "moment_type": "Desire",
+      "statement": "The overwhelming, irrational urge to pursue supernormal stimuli (drugs, porn, gambling) at the expense of survival priorities like family or work.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_the_hijack",
+        "conc_desire_circuit",
+        "conc_impulsive_behavior"
+      ]
+    },
+    {
+      "moment_id": "mom_desire_resentment_of_deprivation",
+      "moment_type": "Desire",
+      "statement": "The deep sense of resentment and negativity felt when an expected dopamine reward fails to materialize.",
+      "polarity": "Limiting",
+      "associated_concept_ids": [
+        "conc_dopamine_shutdown"
+      ]
+    },
+    {
+      "moment_id": "mom_intention_rational_override",
+      "moment_type": "Intention",
+      "statement": "The resolve to use abstract concepts, long-term planning, and rationality to suppress immediate impulses.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_dopamine_control_circuit",
+        "conc_impulsive_behavior"
+      ]
+    },
+    {
+      "moment_id": "mom_desire_sensory_appreciation",
+      "moment_type": "Desire",
+      "statement": "The capacity to derive satisfaction from the sensory details (taste, touch, emotion) of the present moment.",
+      "polarity": "Empowering",
+      "associated_concept_ids": [
+        "conc_hn_molecules",
+        "conc_concrete_present"
+      ]
+    }
+  ],
+  "teleology": {
+    "goals": [
+      {
+        "goal_id": "goal_sustainable_satisfaction",
+        "target_outcome": "A state of 'liking' characterized by contentment, sensory appreciation, and the enjoyment of the Here and Now (H&N), independent of dopaminergic craving."
+      },
+      {
+        "goal_id": "goal_rational_autonomy",
+        "target_outcome": "The successful override of impulsive, short-term desires by the frontal cortex (Control Circuit) to serve long-term well-being."
+      },
+      {
+        "goal_id": "goal_addiction_recovery",
+        "target_outcome": "The restoration of baseline dopamine sensitivity and the cessation of compulsive behaviors driven by supernormal stimuli."
+      }
+    ],
+    "prescribed_actions": [
+      {
+        "action_id": "act_mindful_savoring",
+        "action_name": "Sensory Savoring",
+        "mitigates_limiting_moment_ids": [
+          "mom_belief_wanting_equals_liking",
+          "mom_belief_phantom_superiority"
+        ],
+        "satisfies_goal_ids": [
+          "goal_sustainable_satisfaction"
+        ],
+        "description": "Deliberately focusing attention on the sensory details (flavors, textures, emotions) of the present moment to activate H&N circuits and transition from 'wanting' to 'liking'."
+      },
+      {
+        "action_id": "act_abstinence_trial",
+        "action_name": "The 30-Day Abstinence Trial",
+        "mitigates_limiting_moment_ids": [
+          "mom_desire_hijacked_compulsion",
+          "mom_desire_reward_prediction_fixation"
+        ],
+        "satisfies_goal_ids": [
+          "goal_addiction_recovery"
+        ],
+        "description": "A temporary period of complete sobriety or cessation of a behavior to break the dopamine feedback loop and assess one's level of control."
+      },
+      {
+        "action_id": "act_imposing_barriers",
+        "action_name": "Imposing Access Barriers",
+        "mitigates_limiting_moment_ids": [
+          "mom_desire_hijacked_compulsion"
+        ],
+        "satisfies_goal_ids": [
+          "goal_addiction_recovery",
+          "goal_rational_autonomy"
+        ],
+        "description": "Intentionally increasing the friction required to access addictive stimuli (e.g., removing cues, blocking websites) to prevent the desire circuit from engaging."
+      },
+      {
+        "action_id": "act_rational_forecasting",
+        "action_name": "Rational Long-Term Forecasting",
+        "mitigates_limiting_moment_ids": [
+          "mom_desire_insatiable_more",
+          "mom_belief_phantom_superiority"
+        ],
+        "satisfies_goal_ids": [
+          "goal_rational_autonomy"
+        ],
+        "description": "Engaging the frontal lobes to project into the distant future and calculate the long-term consequences of immediate impulses, using abstract concepts to override the desire circuit."
+      },
+      {
+        "action_id": "act_strategic_purchasing",
+        "action_name": "Strategic Utility Purchasing",
+        "mitigates_limiting_moment_ids": [
+          "mom_desire_resentment_of_deprivation"
+        ],
+        "satisfies_goal_ids": [
+          "goal_sustainable_satisfaction"
+        ],
+        "description": "Buying tools or assets that boost future productivity (sustaining dopaminergic expectation) rather than purely consumptive goods, to minimize buyer's remorse."
+      }
+    ]
+  },
+  "graph_edges": [
+    {
+      "subject_id": "conc_dopamine_desire",
+      "predicate": "dul:classifies",
+      "object_id": "mom_belief_wanting_equals_liking",
+      "rationale": "The concept of Dopamine as the molecule of desire defines the limiting belief that wanting implies liking."
+    },
+    {
+      "subject_id": "conc_hn_molecules",
+      "predicate": "dul:classifies",
+      "object_id": "mom_belief_wanting_equals_liking",
+      "rationale": "The concept of Here & Now molecules (H&Ns) is central to the confusion addressed by the belief that wanting guarantees liking."
+    },
+    {
+      "subject_id": "conc_buyers_remorse",
+      "predicate": "dul:classifies",
+      "object_id": "mom_belief_wanting_equals_liking",
+      "rationale": "The mechanism of Buyer's Remorse is the specific phenomenon that characterizes the failure of this belief."
+    },
+    {
+      "subject_id": "conc_dopamine_desire",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_insatiable_more",
+      "rationale": "The insatiable craving for 'more' is a direct manifestation of the Dopamine concept's inability to provide satisfaction."
+    },
+    {
+      "subject_id": "conc_phantom_future",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_insatiable_more",
+      "rationale": "The desire for 'more' operates within the Phantom Future, always looking ahead rather than at the present."
+    },
+    {
+      "subject_id": "conc_phantom_future",
+      "predicate": "dul:classifies",
+      "object_id": "mom_belief_phantom_superiority",
+      "rationale": "The concept of the Phantom Future defines the limiting worldview that abstract possibilities are superior to reality."
+    },
+    {
+      "subject_id": "conc_concrete_present",
+      "predicate": "dul:classifies",
+      "object_id": "mom_belief_phantom_superiority",
+      "rationale": "The Concrete Present is the domain devalued by this limiting belief."
+    },
+    {
+      "subject_id": "conc_reward_prediction_error",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_reward_prediction_fixation",
+      "rationale": "The fixation on unexpected rewards is biologically defined by the mechanism of Reward Prediction Error."
+    },
+    {
+      "subject_id": "conc_dopaminergic_habituation",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_reward_prediction_fixation",
+      "rationale": "Habituation is the mechanism that drives the boredom associated with this desire once rewards become predictable."
+    },
+    {
+      "subject_id": "conc_the_hijack",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_hijacked_compulsion",
+      "rationale": "The Hijack mechanism explains the pathological nature of the compulsion toward supernormal stimuli."
+    },
+    {
+      "subject_id": "conc_desire_circuit",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_hijacked_compulsion",
+      "rationale": "The Desire Circuit is the specific neurological pathway overwhelmed by this compulsion."
+    },
+    {
+      "subject_id": "conc_dopamine_shutdown",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_resentment_of_deprivation",
+      "rationale": "The physiological drop in dopamine (Shutdown) defines the subjective feeling of resentment and deprivation."
+    },
+    {
+      "subject_id": "conc_dopamine_control_circuit",
+      "predicate": "dul:classifies",
+      "object_id": "mom_intention_rational_override",
+      "rationale": "The Control Circuit is the biological basis for the empowering intention to override impulses."
+    },
+    {
+      "subject_id": "conc_hn_molecules",
+      "predicate": "dul:classifies",
+      "object_id": "mom_desire_sensory_appreciation",
+      "rationale": "H&N molecules are the neurochemical drivers of the capacity for sensory appreciation."
+    },
+    {
+      "subject_id": "mom_desire_sensory_appreciation",
+      "predicate": "ufo:motivates",
+      "object_id": "act_mindful_savoring",
+      "rationale": "The empowering desire to appreciate the present motivates the deliberate action of sensory savoring."
+    },
+    {
+      "subject_id": "mom_intention_rational_override",
+      "predicate": "ufo:motivates",
+      "object_id": "act_rational_forecasting",
+      "rationale": "The intention to use rationality motivates the specific technique of long-term forecasting."
+    },
+    {
+      "subject_id": "mom_intention_rational_override",
+      "predicate": "ufo:motivates",
+      "object_id": "act_imposing_barriers",
+      "rationale": "The resolve to override impulses motivates the creation of external barriers to prevent failure."
+    },
+    {
+      "subject_id": "act_mindful_savoring",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_belief_wanting_equals_liking",
+      "rationale": "Savoring forces a distinction between expectation and experience, mitigating the confusion between wanting and liking."
+    },
+    {
+      "subject_id": "act_mindful_savoring",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_belief_phantom_superiority",
+      "rationale": "By focusing on the richness of the present, savoring challenges the belief that the abstract future is superior."
+    },
+    {
+      "subject_id": "act_abstinence_trial",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_desire_hijacked_compulsion",
+      "rationale": "A period of abstinence breaks the feedback loop of compulsion driven by supernormal stimuli."
+    },
+    {
+      "subject_id": "act_abstinence_trial",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_desire_reward_prediction_fixation",
+      "rationale": "Abstinence resets the baseline, mitigating the fixation on the 'rush' of constant reward prediction errors."
+    },
+    {
+      "subject_id": "act_imposing_barriers",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_desire_hijacked_compulsion",
+      "rationale": "Barriers physically prevent the execution of compulsive behaviors, mitigating the power of the hijacked desire."
+    },
+    {
+      "subject_id": "act_rational_forecasting",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_desire_insatiable_more",
+      "rationale": "Forecasting reveals the diminishing returns of 'more,' mitigating the irrational drive for endless acquisition."
+    },
+    {
+      "subject_id": "act_rational_forecasting",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_belief_phantom_superiority",
+      "rationale": "Rational analysis exposes the deceptive nature of the phantom future, mitigating the belief in its superiority."
+    },
+    {
+      "subject_id": "act_strategic_purchasing",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_desire_resentment_of_deprivation",
+      "rationale": "Purchasing utility items maintains a sense of progress, mitigating the resentment caused by total dopamine shutdown."
+    },
+    {
+      "subject_id": "act_mindful_savoring",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_sustainable_satisfaction",
+      "rationale": "Savoring activates H&N molecules, directly bringing about the state of sustainable satisfaction."
+    },
+    {
+      "subject_id": "act_abstinence_trial",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_addiction_recovery",
+      "rationale": "Complete abstinence allows neurochemistry to reset, bringing about recovery from addiction."
+    },
+    {
+      "subject_id": "act_imposing_barriers",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_addiction_recovery",
+      "rationale": "Barriers facilitate the initial stages of recovery by preventing relapse."
+    },
+    {
+      "subject_id": "act_imposing_barriers",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_rational_autonomy",
+      "rationale": "Barriers act as an external proxy for self-control, helping establish rational autonomy."
+    },
+    {
+      "subject_id": "act_rational_forecasting",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_rational_autonomy",
+      "rationale": "Forecasting trains the frontal lobes, bringing about a state of rational governance over impulses."
+    },
+    {
+      "subject_id": "act_strategic_purchasing",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_sustainable_satisfaction",
+      "rationale": "Strategic purchases minimize buyer's remorse, contributing to a more sustainable form of satisfaction."
+    },
+    {
+      "subject_id": "act_mindful_savoring",
+      "predicate": "ufo:requires",
+      "object_id": "conc_concrete_present",
+      "rationale": "The action of savoring inherently requires focusing attention on the concept of the Concrete Present."
+    },
+    {
+      "subject_id": "act_rational_forecasting",
+      "predicate": "ufo:requires",
+      "object_id": "conc_dopamine_control_circuit",
+      "rationale": "Rational forecasting relies on the biological mechanism of the Dopamine Control Circuit (frontal lobes)."
+    },
+    {
+      "subject_id": "act_rational_forecasting",
+      "predicate": "ufo:requires",
+      "object_id": "conc_phantom_future",
+      "rationale": "Forecasting requires utilizing the abstract space of the Phantom Future for calculation and planning."
+    },
+    {
+      "subject_id": "act_abstinence_trial",
+      "predicate": "ufo:requires",
+      "object_id": "conc_dopaminergic_habituation",
+      "rationale": "The trial relies on the concept of habituation to reset the brain's sensitivity levels."
+    }
+  ]
+}

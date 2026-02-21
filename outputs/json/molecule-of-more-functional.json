@@ -1,0 +1,737 @@
+{
+  "concepts": [
+    {
+      "id": "conc_dopamine",
+      "term": "Dopamine",
+      "concept_type": "Mechanism",
+      "definition": "A neurotransmitter that manages the 'extrapersonal' world of possibilities, driving anticipation, desire, planning, and the pursuit of things not yet possessed."
+    },
+    {
+      "id": "conc_here_and_now_molecules",
+      "term": "Here & Now Molecules (H&Ns)",
+      "concept_type": "Mechanism",
+      "definition": "A collection of neurotransmitters (serotonin, oxytocin, endorphins, endocannabinoids) that mediate satisfaction, sensory enjoyment, and emotion in the present moment."
+    },
+    {
+      "id": "conc_peripersonal_space",
+      "term": "Peripersonal Space",
+      "concept_type": "Paradigm",
+      "definition": "The realm of 'down'; the space within immediate reach where things can be controlled, touched, and enjoyed right now, governed by H&Ns."
+    },
+    {
+      "id": "conc_extrapersonal_space",
+      "term": "Extrapersonal Space",
+      "concept_type": "Paradigm",
+      "definition": "The realm of 'up'; the space beyond immediate reach (distance or future) requiring planning and effort to acquire, governed by dopamine."
+    },
+    {
+      "id": "conc_reward_prediction_error",
+      "term": "Reward Prediction Error",
+      "concept_type": "Mechanism",
+      "definition": "The buzz received from novelty when an actual reward exceeds the expected reward; the primary trigger for dopamine release."
+    },
+    {
+      "id": "conc_dopamine_desire_circuit",
+      "term": "Dopamine Desire Circuit",
+      "concept_type": "Mechanism",
+      "definition": "The mesolimbic pathway; the source of raw urge, craving, and enthusiasm that says 'I want it' without regard for long-term consequences."
+    },
+    {
+      "id": "conc_dopamine_control_circuit",
+      "term": "Dopamine Control Circuit",
+      "concept_type": "Mechanism",
+      "definition": "The mesocortical pathway; the source of calculation, planning, tenacity, and willpower that manages urges to achieve long-term goals."
+    },
+    {
+      "id": "conc_wanting_vs_liking",
+      "term": "Wanting vs. Liking",
+      "concept_type": "Paradigm",
+      "definition": "The neurological distinction between dopaminergic drive (craving/pursuit) and H&N satisfaction (enjoyment/satiety), often dissociated in addiction."
+    },
+    {
+      "id": "conc_salience",
+      "term": "Salience",
+      "concept_type": "Mechanism",
+      "definition": "The degree to which a specific stimulus stands out as important or conspicuous, triggering the message 'Pay attention, this matters.'"
+    },
+    {
+      "id": "conc_latent_inhibition",
+      "term": "Latent Inhibition",
+      "concept_type": "Mechanism",
+      "definition": "The brain's ability to filter out familiar or irrelevant stimuli to prevent information overload; low levels are associated with creativity and psychosis."
+    },
+    {
+      "id": "conc_mental_time_travel",
+      "term": "Mental Time Travel",
+      "concept_type": "Mechanism",
+      "definition": "The dopaminergic ability to project oneself into the future to simulate scenarios and make choices based on predicted outcomes."
+    },
+    {
+      "id": "conc_model_building",
+      "term": "Model Building",
+      "concept_type": "Mechanism",
+      "definition": "The creation of abstract representations of the world to simplify comprehension and predict future events."
+    },
+    {
+      "id": "conc_agentic_relationship",
+      "term": "Agentic Relationship",
+      "concept_type": "Paradigm",
+      "definition": "A relationship formed for the purpose of accomplishing a goal or extracting resources, orchestrated by dopamine."
+    },
+    {
+      "id": "conc_affiliative_relationship",
+      "term": "Affiliative Relationship",
+      "concept_type": "Paradigm",
+      "definition": "A relationship formed for the purpose of enjoying social interaction and emotional connection in the here and now."
+    },
+    {
+      "id": "conc_7r_allele",
+      "term": "7R Allele",
+      "concept_type": "Jargon",
+      "definition": "A variant of the DRD4 gene associated with risk-taking, novelty-seeking, and migration; often called the 'adventure gene.'"
+    },
+    {
+      "id": "conc_glamour",
+      "term": "Glamour",
+      "concept_type": "Jargon",
+      "definition": "A dopaminergic illusion that makes the 'extrapersonal' (unreal/distant) seem perfect and desirable by drowning out realistic perception."
+    }
+  ],
+  "dynamic_trajectories": [
+    {
+      "id": "traj_temporal_focus",
+      "dimension_name": "Temporal Focus",
+      "shift_description": "Shifts from the Present (H&N/Sensation) to the Future (Dopamine/Anticipation)."
+    },
+    {
+      "id": "traj_spatial_orientation",
+      "dimension_name": "Spatial Orientation",
+      "shift_description": "Shifts from Peripersonal (within reach/control) to Extrapersonal (beyond reach/possibility)."
+    },
+    {
+      "id": "traj_dopaminergic_activity",
+      "dimension_name": "Dopaminergic Activity",
+      "shift_description": "Continuous variable of dopamine firing rates; high levels correlate with mania/creativity, low levels with Parkinson's/apathy."
+    },
+    {
+      "id": "traj_latent_inhibition",
+      "dimension_name": "Latent Inhibition",
+      "shift_description": "Spectrum of filtering capability; shifts from High (ignoring irrelevant details) to Low (overwhelmed by details/creativity/madness)."
+    },
+    {
+      "id": "traj_salience_assignment",
+      "dimension_name": "Salience Assignment",
+      "shift_description": "The intensity of importance assigned to stimuli; shifts from indifference to obsession/delusion."
+    },
+    {
+      "id": "traj_locus_of_control",
+      "dimension_name": "Locus of Control",
+      "shift_description": "Shifts from External (passive/fate-driven) to Internal (active/mastery-driven)."
+    },
+    {
+      "id": "traj_bizarreness_density",
+      "dimension_name": "Bizarreness Density",
+      "shift_description": "Measure of illogical or dreamlike content in thought processes; increases during dreaming and psychosis."
+    }
+  ],
+  "situations": [
+    {
+      "id": "sit_shawn_samantha_romance",
+      "title": "The Fading Honeymoon of Shawn and Samantha",
+      "narrative_summary": "Shawn and Samantha meet at a bar, fueled by the novelty and anticipation of the 'extrapersonal' unknown. They fall in love, obsess over each other, and marry. Over time, the relationship transitions from the thrill of the unknown to the familiarity of the 'peripersonal'. The dopamine rush fades, leaving them to either transition to companionate H&N love or seek new thrills elsewhere."
+    },
+    {
+      "id": "sit_schultz_monkey_light",
+      "title": "Wolfram Schultz's Monkey and the Light Bulb",
+      "narrative_summary": "A monkey is trained to associate a light with a food pellet. Initially, dopamine fires when the food arrives. Once the pattern is learned, dopamine fires when the light turns on (anticipation), not when the food is eaten. If the food doesn't arrive, dopamine levels crash below baseline. This proved dopamine is about anticipation and prediction error, not the reward itself."
+    },
+    {
+      "id": "sit_pettigrew_flying_primates",
+      "title": "Pettigrew's Peripersonal vs. Extrapersonal Mapping",
+      "narrative_summary": "Neuroscientist John Douglas Pettigrew discovers that the brain maps the world into two distinct zones: the 'peripersonal' (within reach, controlled by H&N molecules) and the 'extrapersonal' (out of reach, controlled by dopamine). This explains why wanting (future) and liking (present) are neurologically distinct."
+    },
+    {
+      "id": "sit_skinner_pigeons_variable",
+      "title": "Skinner's Pigeons and Variable Rewards",
+      "narrative_summary": "B.F. Skinner conditions pigeons to peck a lever for food. When the reward is predictable, they peck lazily. When the reward is random (variable ratio), the pigeons peck frantically and obsessively. This mechanism underpins gambling addiction and social media scrolling."
+    },
+    {
+      "id": "sit_parkinsons_gambler_ian",
+      "title": "The Parkinson's Patient Who Lost Everything",
+      "narrative_summary": "Ian, a retiree with Parkinson's, is prescribed a dopamine agonist (Cabaser). The artificial boost to his dopamine desire circuit causes him to compulsively gamble away his life savings, home, and car, despite having no prior history of gambling. The behavior ceases immediately upon stopping the medication."
+    },
+    {
+      "id": "sit_resolute_rats",
+      "title": "The Resolute vs. Lazy Rats",
+      "narrative_summary": "Rats with depleted dopamine are willing to eat food placed right in front of them (liking remains) but refuse to climb a small barrier to get it (wanting/motivation is gone). Normal rats work hard for the reward. This demonstrates dopamine provides the tenacity to overcome friction."
+    },
+    {
+      "id": "sit_buffalo_bills_comeback",
+      "title": "The Buffalo Bills' 1993 Comeback",
+      "narrative_summary": "Down 35-3, the Buffalo Bills experience a surge of self-efficacy (dopamine control). As they begin to score, their confidence creates a feedback loop of success, allowing them to dominate the opponent despite the odds, illustrating how dopamine fuels tenacity and momentum."
+    },
+    {
+      "id": "sit_sailor_storm_panic",
+      "title": "The Sailor Suppressing Panic in a Storm",
+      "narrative_summary": "A sailor faces a life-threatening equipment failure in a storm. The H&N urge to panic (fight-or-flight) nearly overwhelms him. He consciously suppresses the emotion to engage his dopamine control circuit, allowing him to coldly calculate a plan to steer the boat to safety using the sails."
+    },
+    {
+      "id": "sit_radishes_cookies_willpower",
+      "title": "The Radishes and Cookies Experiment",
+      "narrative_summary": "Participants are tempted with cookies but forced to eat radishes. Later, they are given an impossible puzzle to solve. Those who expended willpower resisting the cookies give up on the puzzle significantly faster than those allowed to eat the cookies, demonstrating that dopaminergic willpower is a finite resource."
+    },
+    {
+      "id": "sit_kekule_benzene_dream",
+      "title": "Kekul\u00e9's Ouroboros Dream",
+      "narrative_summary": "Chemist Friedrich August Kekul\u00e9 struggles to figure out the structure of benzene. In a dream state (where H&N sensory constraints are lowered and dopamine flows freely), he sees a snake biting its own tail. This 'bizarre' association leads him to the scientific breakthrough of the benzene ring."
+    },
+    {
+      "id": "sit_migration_7r_allele",
+      "title": "The Migration of the 7R Allele",
+      "narrative_summary": "Genetic studies reveal that the frequency of the 7R 'adventure' allele of the dopamine receptor gene increases with the distance a population has migrated from Africa. This suggests dopamine drove humans to explore new worlds and helped them survive in novel environments."
+    },
+    {
+      "id": "sit_construction_workers_happiness",
+      "title": "The Happiness of Construction Workers",
+      "narrative_summary": "A survey reveals construction workers are among the happiest employees. This is attributed to the balance of dopamine (planning/building/progress) and H&N (physical sensory engagement/camaraderie), creating a state of harmony often missing in purely abstract office jobs."
+    }
+  ],
+  "inscribed_acts": [
+    {
+      "id": "doc_informed_consent",
+      "document_name": "Informed Consent Form",
+      "causal_force": "A bureaucratic constraint that forces researchers to pause dopaminergic pursuit of knowledge to consider the H&N well-being of participants."
+    },
+    {
+      "id": "doc_marriage_vows",
+      "document_name": "Marriage Vows / Norms of Monogamy",
+      "causal_force": "A social contract that restricts the dopamine desire circuit's drive for novel sexual partners, enforcing a transition to H&N companionate bonding."
+    },
+    {
+      "id": "doc_top_doc_list",
+      "document_name": "Washingtonian's Top Doc List",
+      "causal_force": "A published ranking that triggers intense social status anxiety and dopaminergic striving among physicians, validating their worth through external recognition."
+    },
+    {
+      "id": "doc_drug_laws",
+      "document_name": "Drug Prohibition Laws",
+      "causal_force": "Legal barriers that increase the 'effort' required to obtain substances, theoretically engaging the control circuit to dampen the desire circuit (though often failing against high-dopamine drives)."
+    },
+    {
+      "id": "doc_corporate_schedules",
+      "document_name": "Corporate Work Schedules / SLAs",
+      "causal_force": "Institutional rules that demand constant availability and multitasking, forcing the brain into a high-dopamine, high-stress state that suppresses H&N satisfaction."
+    }
+  ],
+  "emotion_situations": [
+    {
+      "id": "vibe_glamour",
+      "vibe_label": "Glamour",
+      "experiencer": "The Observer / Dreamer",
+      "trigger": "A distant, unattainable object (e.g., a mountain, a movie star, a future vacation).",
+      "appraisal": "The belief that the distant object is perfect and contains the solution to all dissatisfaction.",
+      "physiological_substrate": "A yearning ache, visual fixation, and suppression of immediate sensory flaws."
+    },
+    {
+      "id": "vibe_buyer_remorse",
+      "vibe_label": "Buyer's Remorse",
+      "experiencer": "The Consumer",
+      "trigger": "The moment of acquisition; moving an object from 'extrapersonal' to 'peripersonal' space.",
+      "appraisal": "The realization that the object is merely matter and does not deliver the promised future happiness.",
+      "physiological_substrate": "A drop in energy, a feeling of emptiness or nausea, and a cessation of the 'buzz'."
+    },
+    {
+      "id": "vibe_cold_calculation",
+      "vibe_label": "Cold Calculation",
+      "experiencer": "The Strategist / Dominator",
+      "trigger": "A high-stakes crisis or competition requiring victory.",
+      "appraisal": "The suppression of empathy and fear to maximize resource extraction and future success.",
+      "physiological_substrate": "Ice in the veins; a feeling of detachment, extreme focus, and lowered heart rate despite chaos."
+    },
+    {
+      "id": "vibe_creative_madness",
+      "vibe_label": "Creative Madness / Flow",
+      "experiencer": "The Artist / Schizophrenic",
+      "trigger": "Low latent inhibition; the inability to filter out 'irrelevant' stimuli.",
+      "appraisal": "The perception of profound connections between unrelated things (salience).",
+      "physiological_substrate": "A flood of sensory data, racing thoughts, and a feeling of being overwhelmed or divinely inspired."
+    },
+    {
+      "id": "vibe_companionate_warmth",
+      "vibe_label": "Companionate Warmth",
+      "experiencer": "The Partner / Parent",
+      "trigger": "Physical touch, familiar presence, safety in the here and now.",
+      "appraisal": "Deep satisfaction with the present moment; no desire for 'more'.",
+      "physiological_substrate": "Relaxation of muscle tension, release of oxytocin/endorphins, feeling of 'fullness'."
+    },
+    {
+      "id": "vibe_dopaminergic_urge",
+      "vibe_label": "The Itch of More",
+      "experiencer": "The Addict / Ambitious Executive",
+      "trigger": "A cue associated with a potential reward (e.g., a notification sound, a smell, a stock ticker).",
+      "appraisal": "The conviction that the next interaction will yield a reward greater than the current state.",
+      "physiological_substrate": "Restlessness, increased heart rate, visual tunneling, and a physical inability to sit still."
+    }
+  ],
+  "mental_moments": [
+    {
+      "id": "mom_pleasure_myth",
+      "title": "The Pleasure Myth",
+      "moment_type": "Belief",
+      "statement": "Dopamine is the molecule of pleasure and satisfaction.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_anticipation_reality",
+      "title": "The Anticipation Reality",
+      "moment_type": "Belief",
+      "statement": "Dopamine is not about pleasure; it is about the anticipation of future possibilities and the drive to acquire what is not yet possessed.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_raw_craving",
+      "title": "The Raw Craving",
+      "moment_type": "Desire",
+      "statement": "I want this right now, regardless of whether I need it or will enjoy it.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_travel_over_arrival",
+      "title": "Travel Over Arrival",
+      "moment_type": "Belief",
+      "statement": "To travel hopefully is better than to arrive; satisfaction is boring, and the pursuit is everything.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_possession_kills_desire",
+      "title": "Possession Kills Desire",
+      "moment_type": "Belief",
+      "statement": "Once I possess the object of my desire, it moves from the exciting 'up' world to the boring 'down' world, and I no longer want it.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_transition_love",
+      "title": "Transition to Companionate Love",
+      "moment_type": "Intention",
+      "statement": "I must shift my focus from the thrill of anticipation (Dopamine) to the satisfaction of the present experience (H&N) to maintain long-term love.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_wanting_vs_liking",
+      "title": "Wanting vs. Liking",
+      "moment_type": "Belief",
+      "statement": "The system that makes me want things is distinct from the system that makes me like them; I can desperately want things I do not enjoy.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_willpower_limited",
+      "title": "Willpower is Limited",
+      "moment_type": "Belief",
+      "statement": "Willpower is a finite resource that fatigues with use; relying on it solely to resist temptation is a strategy destined for failure.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_plan_vs_urge",
+      "title": "Planning vs. Urge",
+      "moment_type": "Intention",
+      "statement": "I will use the cold, calculating Dopamine Control Circuit to outsmart and manage the hot, impulsive Dopamine Desire Circuit.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_winning_insatiable",
+      "title": "Winning is Insatiable",
+      "moment_type": "Belief",
+      "statement": "Winning is never enough; the moment of victory is fleeting, and the drive for the next conquest immediately takes over.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_emotion_liability",
+      "title": "Emotion as Liability",
+      "moment_type": "Belief",
+      "statement": "Emotions are H&N distractions that interfere with calculated, effective action and domination.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_creativity_flow",
+      "title": "Creativity via Low Inhibition",
+      "moment_type": "Belief",
+      "statement": "To create, I must lower my latent inhibition and allow seemingly irrelevant details to connect in new ways.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_wandering_unhappy",
+      "title": "The Wandering Mind",
+      "moment_type": "Belief",
+      "statement": "A wandering mind is an unhappy mind; happiness requires paying attention to the present moment.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_combine_doing_being",
+      "title": "Combine Doing and Being",
+      "moment_type": "Intention",
+      "statement": "I will integrate the drive for improvement (Dopamine) with the appreciation of the present (H&N) to achieve true mastery and harmony.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_multitasking_harm",
+      "title": "The Multitasking Trap",
+      "moment_type": "Belief",
+      "statement": "Multitasking is a myth that decreases efficiency and increases stress; single-tasking is superior.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_conflicting_desires",
+      "title": "Conflicting Desires",
+      "moment_type": "Desire",
+      "statement": "I am torn between the desire to improve the world (Future) and the desire to enjoy the world (Present).",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_reality_richness",
+      "title": "Richness of Reality",
+      "moment_type": "Belief",
+      "statement": "Reality is the richest source of the unexpected; paying attention to the here and now provides the best data for the brain.",
+      "polarity": "Empowering"
+    },
+    {
+      "id": "mom_identity_dopamine",
+      "title": "Identity as Dopamine",
+      "moment_type": "Belief",
+      "statement": "I identify my 'self' with my thoughts, plans, and abstractions (Dopamine) rather than my physical actions and presence (H&N).",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_glamour_illusion",
+      "title": "The Illusion of Glamour",
+      "moment_type": "Belief",
+      "statement": "Things that are distant and unreal seem perfect (glamorous) only because I cannot see their flaws; reality always disappoints the imagination.",
+      "polarity": "Limiting"
+    },
+    {
+      "id": "mom_smart_over_strong",
+      "title": "Smart Over Strong",
+      "moment_type": "Belief",
+      "statement": "It is better to be smart (using control dopamine to plan) than strong (using willpower to resist).",
+      "polarity": "Empowering"
+    }
+  ],
+  "actions": [
+    {
+      "id": "act_shift_attention_spatial",
+      "action_name": "Spatial Attention Shift (Look Up/Look Down)",
+      "mereology": {
+        "pre_state": "A state of imbalance where one is either stuck in unfulfilling consumption (down) or anxious dissatisfaction (up).",
+        "execution": "Consciously shifting one's gaze and mental focus between the 'peripersonal' (immediate reach/sensation) and the 'extrapersonal' (distance/future possibility).",
+        "post_state": "Activation of the specific brain circuit (H&N or Dopamine) required to either enjoy the present or plan for the future."
+      }
+    },
+    {
+      "id": "act_transition_to_companionate_love",
+      "action_name": "Transition to Companionate Love",
+      "mereology": {
+        "pre_state": "The inevitable fading of the 12-18 month 'passionate' dopamine high in a relationship.",
+        "execution": "Deliberately shifting value from the thrill of the unknown to the sensory appreciation of the partner's presence, touch, and shared reality (H&N behaviors).",
+        "post_state": "Establishment of a stable, long-term bond mediated by oxytocin and endorphins rather than dopamine."
+      }
+    },
+    {
+      "id": "act_search_and_destroy_triggers",
+      "action_name": "Search and Destroy Triggers",
+      "mereology": {
+        "pre_state": "An environment filled with cues (people, places, things) that trigger the dopamine desire circuit.",
+        "execution": "Physically removing all objects associated with the addiction (e.g., throwing away brewing equipment, deleting phone numbers) to eliminate visual/sensory cues.",
+        "post_state": "A neutralized environment that reduces the frequency of involuntary craving spikes."
+      }
+    },
+    {
+      "id": "act_pro_change_verbalization",
+      "action_name": "Pro-Change Verbalization (MET)",
+      "mereology": {
+        "pre_state": "Ambivalence regarding an addiction or bad habit.",
+        "execution": "Speaking aloud the reasons for changing behavior ('pro-change statements') while avoiding arguments against change.",
+        "post_state": "Strengthened internal motivation and belief in the necessity of the new behavior."
+      }
+    },
+    {
+      "id": "act_suppress_emotion_for_control",
+      "action_name": "Cold Calculation (Emotion Suppression)",
+      "mereology": {
+        "pre_state": "A high-stakes crisis or threat triggering H&N fear/panic responses.",
+        "execution": "Consciously inhibiting the emotional reaction to allow the dopamine control circuit to analyze resources and strategize.",
+        "post_state": "Rational, deliberate action taken to dominate the environment or ensure survival."
+      }
+    },
+    {
+      "id": "act_submissive_cooperation",
+      "action_name": "Strategic Submission",
+      "mereology": {
+        "pre_state": "A situation where direct aggression or dominance would lead to conflict or failure.",
+        "execution": "Adopting a submissive or courteous posture to disarm an opponent or gain an ally's cooperation.",
+        "post_state": "Successful manipulation of the social environment to achieve a dopaminergic goal."
+      }
+    },
+    {
+      "id": "act_dream_incubation",
+      "action_name": "Dream Incubation",
+      "mereology": {
+        "pre_state": "A difficult problem requiring a novel solution; holding a visual image of the problem in mind before sleep.",
+        "execution": "Sleeping to allow the uninhibited dopaminergic brain to make bizarre connections, then writing down the dream immediately upon waking.",
+        "post_state": "Access to creative insights or solutions that were blocked by waking logic."
+      }
+    },
+    {
+      "id": "act_pursue_mastery",
+      "action_name": "Pursuit of Mastery",
+      "mereology": {
+        "pre_state": "A desire to acquire a skill (e.g., music, coding, sports).",
+        "execution": "Engaging in persistent, difficult practice that pushes beyond the comfort zone to extract maximum reward from the activity.",
+        "post_state": "A state of 'flow' where dopamine (pursuit) and H&N (satisfaction) merge, creating an internal locus of control."
+      }
+    },
+    {
+      "id": "act_nature_microbreak",
+      "action_name": "Nature Microbreak",
+      "mereology": {
+        "pre_state": "Mental fatigue and declining concentration from sustained effort.",
+        "execution": "Taking a short (e.g., 40-second) break to view a natural scene (greenery, flowers) rather than concrete or screens.",
+        "post_state": "Restored attention span and reduced error rates in subsequent tasks."
+      }
+    },
+    {
+      "id": "act_single_tasking",
+      "action_name": "Single-Tasking",
+      "mereology": {
+        "pre_state": "The urge to multitask (e.g., check email while on a call) driven by dopamine's desire for more stimuli.",
+        "execution": "Deliberately restricting attention to one specific task at a time until completion.",
+        "post_state": "Higher quality work, increased efficiency, and reduced stress/burnout."
+      }
+    },
+    {
+      "id": "act_hands_on_creation",
+      "action_name": "Hands-On Creation",
+      "mereology": {
+        "pre_state": "Living entirely in the abstract, digital, or future-focused world.",
+        "execution": "Engaging in physical crafts (woodworking, knitting, gardening, repair) that require both planning and manual manipulation.",
+        "post_state": "The creation of a tangible object ('birdhouse') that provides H&N satisfaction and grounds the creator in reality."
+      }
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_harmony",
+      "target_outcome": "A balanced state where Dopamine (future/drive) and H&N (present/satisfaction) work together rather than in opposition."
+    },
+    {
+      "id": "goal_internal_locus_of_control",
+      "target_outcome": "The conviction that one's choices and experiences are under one's own control, leading to higher success and satisfaction."
+    },
+    {
+      "id": "goal_companionate_love",
+      "target_outcome": "A long-term, stable relationship characterized by deep satisfaction with the present reality of the partner."
+    },
+    {
+      "id": "goal_sobriety",
+      "target_outcome": "Freedom from the slavery of the dopamine desire circuit and the ability to resist craving cues."
+    },
+    {
+      "id": "goal_innovation",
+      "target_outcome": "The creation of new models, technologies, or artistic works that improve the future or reveal truth."
+    },
+    {
+      "id": "goal_resource_maximization",
+      "target_outcome": "The evolutionary imperative to secure the best possible resources for survival and reproduction."
+    },
+    {
+      "id": "goal_happiness",
+      "target_outcome": "The ultimate end of all human action (Aristotle), achieved only by balancing the drive for more with the ability to enjoy what is."
+    }
+  ],
+  "graph_edges": [
+    {
+      "subject_id": "conc_dopamine_desire_circuit",
+      "predicate": "dul:classifies",
+      "object_id": "mom_raw_craving",
+      "rationale": "The biological mechanism of the desire circuit categorizes the subjective experience of raw craving."
+    },
+    {
+      "subject_id": "conc_dopamine_control_circuit",
+      "predicate": "dul:classifies",
+      "object_id": "act_suppress_emotion_for_control",
+      "rationale": "The control circuit is the theoretical mechanism that categorizes the behavior of suppressing emotion for strategy."
+    },
+    {
+      "subject_id": "conc_here_and_now_molecules",
+      "predicate": "dul:classifies",
+      "object_id": "act_transition_to_companionate_love",
+      "rationale": "The concept of H&N molecules categorizes the behaviors involved in shifting to companionate love."
+    },
+    {
+      "subject_id": "conc_wanting_vs_liking",
+      "predicate": "dul:classifies",
+      "object_id": "mom_wanting_vs_liking",
+      "rationale": "The neurological paradigm of wanting vs. liking categorizes the belief that desire and enjoyment are distinct."
+    },
+    {
+      "subject_id": "doc_corporate_schedules",
+      "predicate": "doc:constrains",
+      "object_id": "act_single_tasking",
+      "rationale": "Institutional requirements for constant availability and multitasking create friction that makes single-tasking difficult."
+    },
+    {
+      "subject_id": "doc_top_doc_list",
+      "predicate": "doc:constrains",
+      "object_id": "act_transition_to_companionate_love",
+      "rationale": "External validation systems create pressure to pursue status (dopamine), making it harder to settle into companionate satisfaction."
+    },
+    {
+      "subject_id": "vibe_dopaminergic_urge",
+      "predicate": "efo:triggers",
+      "object_id": "mom_raw_craving",
+      "rationale": "The atmospheric vibe of the 'itch of more' directly causes the internal desire state of craving."
+    },
+    {
+      "subject_id": "vibe_glamour",
+      "predicate": "efo:triggers",
+      "object_id": "mom_glamour_illusion",
+      "rationale": "The emotional experience of glamour triggers the belief that distant objects are perfect."
+    },
+    {
+      "subject_id": "vibe_buyer_remorse",
+      "predicate": "efo:triggers",
+      "object_id": "mom_possession_kills_desire",
+      "rationale": "The negative vibe of acquisition triggers the belief that possession destroys desire."
+    },
+    {
+      "subject_id": "vibe_creative_madness",
+      "predicate": "efo:triggers",
+      "object_id": "mom_creativity_flow",
+      "rationale": "The overwhelmed state of creative madness triggers the belief in connecting irrelevant details."
+    },
+    {
+      "subject_id": "mom_transition_love",
+      "predicate": "ufo:motivates",
+      "object_id": "act_transition_to_companionate_love",
+      "rationale": "The intention to shift focus from thrill to satisfaction drives the execution of companionate behaviors."
+    },
+    {
+      "subject_id": "mom_plan_vs_urge",
+      "predicate": "ufo:motivates",
+      "object_id": "act_search_and_destroy_triggers",
+      "rationale": "The intention to use the control circuit to manage impulses drives the action of removing environmental cues."
+    },
+    {
+      "subject_id": "mom_combine_doing_being",
+      "predicate": "ufo:motivates",
+      "object_id": "act_hands_on_creation",
+      "rationale": "The intention to integrate improvement with appreciation drives the engagement in physical crafts."
+    },
+    {
+      "subject_id": "mom_multitasking_harm",
+      "predicate": "ufo:motivates",
+      "object_id": "act_single_tasking",
+      "rationale": "The belief that multitasking is harmful drives the deliberate practice of single-tasking."
+    },
+    {
+      "subject_id": "mom_creativity_flow",
+      "predicate": "ufo:motivates",
+      "object_id": "act_dream_incubation",
+      "rationale": "The belief in lowering inhibition for creativity drives the practice of dream incubation."
+    },
+    {
+      "subject_id": "act_search_and_destroy_triggers",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_raw_craving",
+      "rationale": "Removing environmental cues is prescribed specifically to reduce the frequency of limiting cravings."
+    },
+    {
+      "subject_id": "act_hands_on_creation",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_identity_dopamine",
+      "rationale": "Engaging in physical reality cures the limiting belief that the self is purely abstract."
+    },
+    {
+      "subject_id": "act_shift_attention_spatial",
+      "predicate": "ufo:mitigates",
+      "object_id": "mom_wandering_unhappy",
+      "rationale": "Consciously shifting focus cures the unhappiness associated with a wandering mind."
+    },
+    {
+      "subject_id": "act_pro_change_verbalization",
+      "predicate": "ufo:cultivates",
+      "object_id": "mom_willpower_limited",
+      "rationale": "Verbalizing the need for change builds the empowering belief that willpower alone is insufficient and strategy is needed."
+    },
+    {
+      "subject_id": "act_nature_microbreak",
+      "predicate": "ufo:cultivates",
+      "object_id": "mom_reality_richness",
+      "rationale": "Taking breaks to view nature cultivates the belief that reality is a rich source of data."
+    },
+    {
+      "subject_id": "act_shift_attention_spatial",
+      "predicate": "ufo:requires",
+      "object_id": "conc_peripersonal_space",
+      "rationale": "The action of looking 'down' relies on the concept of peripersonal space."
+    },
+    {
+      "subject_id": "act_suppress_emotion_for_control",
+      "predicate": "ufo:requires",
+      "object_id": "conc_dopamine_control_circuit",
+      "rationale": "The action of cold calculation inherently relies on activating the dopamine control circuit."
+    },
+    {
+      "subject_id": "act_dream_incubation",
+      "predicate": "ufo:requires",
+      "object_id": "conc_latent_inhibition",
+      "rationale": "The action of generating creative insights in sleep relies on the mechanism of lowered latent inhibition."
+    },
+    {
+      "subject_id": "act_transition_to_companionate_love",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_companionate_love",
+      "rationale": "The action of shifting to H&N behaviors directly results in the goal of a stable, long-term bond."
+    },
+    {
+      "subject_id": "act_search_and_destroy_triggers",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_sobriety",
+      "rationale": "The action of removing cues causes the state of freedom from addiction."
+    },
+    {
+      "subject_id": "act_hands_on_creation",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_harmony",
+      "rationale": "The action of combining planning with manual work results in the balanced state of harmony."
+    },
+    {
+      "subject_id": "act_pursue_mastery",
+      "predicate": "ufo:brings_about",
+      "object_id": "goal_internal_locus_of_control",
+      "rationale": "The action of persistent practice results in the conviction of self-control."
+    },
+    {
+      "subject_id": "act_shift_attention_spatial",
+      "predicate": "top:shifts",
+      "object_id": "traj_spatial_orientation",
+      "rationale": "The action moves the agent along the spectrum from peripersonal to extrapersonal space."
+    },
+    {
+      "subject_id": "act_transition_to_companionate_love",
+      "predicate": "top:shifts",
+      "object_id": "traj_temporal_focus",
+      "rationale": "The action moves the agent's focus from the Future (Dopamine) to the Present (H&N)."
+    },
+    {
+      "subject_id": "act_suppress_emotion_for_control",
+      "predicate": "top:shifts",
+      "object_id": "traj_locus_of_control",
+      "rationale": "The action shifts the agent from a passive emotional state to an active, internal locus of control."
+    },
+    {
+      "subject_id": "act_dream_incubation",
+      "predicate": "top:shifts",
+      "object_id": "traj_bizarreness_density",
+      "rationale": "The action increases the illogical content of thought processes to foster creativity."
+    }
+  ]
+}
