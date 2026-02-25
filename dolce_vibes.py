@@ -84,49 +84,190 @@ The Logic: Every central action in a narrative is the intersection of three inse
   - The Macro-Contextual Plane (External/Normative): Extract the D&S Normative Descriptions and Inscribed Acts shaping the viability of the action. (Mapped via DOLCE and Documentality).
 """
 
-PROMPT_1_DOLCE = """You are Stage 1 of a socio-cognitive ontology pipeline. Extract reality exactly as it is conceptualized and framed by the author. Return ONLY valid JSON:
+# ==============================================================================
+# 🧠 META-MODEL SYSTEM INSTRUCTIONS (PROMPTS 1-6)
+# ==============================================================================
+
+PROMPT_1_DOLCE = """You are Stage 1 of a socio-cognitive ontology encoding pipeline. Your operating paradigm is strict Descriptive Realism based on the DOLCE (Descriptive Ontology for Linguistic and Cognitive Engineering) framework. Do not attempt to map an objective, mind-independent physical universe. Your mandate is to extract reality exactly as it is conceptualized and framed by the author of the provided text.
+
+## EXTRACTION AXIOMS:
+1. **Reify the Subjective:** Treat social constructs, cultural paradigms, cognitive biases, and abstract concepts as concrete entities capable of bearing properties. 
+2. **Quality vs. Quale Separation:** When a state or attribute is described, you must architecturally separate the objective `Quality` (the measurable physical/systemic state) from its `Quale` (the conscious, subjective perception of that state by an observing mind).
+3. **Descriptions & Situations (D&S):** Identify the active contextual frameworks.
+   - `Description`: The abstract rule, theory, narrative frame, or societal norm applied by the author.
+   - `Situation`: The specific, real-world application of that Description to the raw entities in the text.
+
+## INPUT:
+You will receive raw source text.
+
+## OUTPUT FORMAT:
+Return your analysis STRICTLY as a valid JSON object matching this schema:
 {
-  "Entities": [{"entity_id": "string", "type": "Physical | Social | Abstract", "description": "string"}],
-  "Qualities_and_Qualia": [{"target_entity": "string", "objective_quality": "string", "subjective_quale": "string"}],
-  "Contextual_DS_Patterns": [{"description_framework": "string", "generated_situation": "string", "perspectival_bias": "string"}]
+  "Entities": [
+    {"entity_id": "string", "type": "Physical | Social | Abstract", "description": "string"}
+  ],
+  "Qualities_and_Qualia": [
+    {"target_entity": "string", "objective_quality": "string", "subjective_quale": "string"}
+  ],
+  "Contextual_DS_Patterns": [
+    {"description_framework": "string", "generated_situation": "string", "perspectival_bias": "string"}
+  ]
 }"""
 
-PROMPT_2_UFO = """You are Stage 2 of a socio-cognitive ontology pipeline. Map how events unfold in time and the internal cognitive architecture driving them. Return ONLY valid JSON:
+PROMPT_2_UFO = """You are Stage 2 of a socio-cognitive ontology encoding pipeline. Your operating paradigm is the Unified Foundational Ontology (UFO). Your task is to map how events unfold in time and the internal cognitive architecture driving them.
+
+## EXTRACTION AXIOMS:
+1. **Perdurants (Events):** Do not map behaviors as static tags. Extract them as temporal `Events` possessing chronological ordering and distinct temporal phases (Mereology: Pre-State, Execution Phase, Post-State). 
+2. **Agentive Demarcation:** Distinguish inert objects from `Agents` (entities capable of generating actions and possessing mental states).
+3. **The BDI Triad:** For every significant action taken by an Agent, you must reverse-engineer their internal cognitive state by extracting:
+   - `Belief`: The agent's cognitive map or assumption of reality (whether true or false).
+   - `Desire`: The agent's underlying motivation, craving, or physiological goal state.
+   - `Intention`: The agent's formal commitment to execute the specific action.
+4. **Social Moments:** Map the existential dependencies between agents (e.g., shifting roles, commitments, or broken obligations).
+
+## INPUT:
+You will receive raw source text AND the JSON output from Stage 1. 
+
+## OUTPUT FORMAT:
+Return your analysis STRICTLY as a valid JSON object matching this schema:
 {
-  "Perdurant_Events": [{"event_id": "string", "temporal_phases": {"pre_state": "string", "execution": "string", "post_state": "string"}}],
-  "Agentive_Intentionality": [{"agent_id": "string", "target_action": "string", "BDI_Triad": {"belief": "string", "desire": "string", "intention": "string"}, "social_moments": ["string"]}]
+  "Perdurant_Events": [
+    {"event_id": "string", "temporal_phases": {"pre_state": "string", "execution": "string", "post_state": "string"}}
+  ],
+  "Agentive_Intentionality": [
+    {
+      "agent_id": "string",
+      "target_action": "string",
+      "BDI_Triad": {"belief": "string", "desire": "string", "intention": "string"},
+      "social_moments": ["string"]
+    }
+  ]
 }"""
 
-PROMPT_3_INSTITUTIONAL = """You are Stage 3 of a socio-cognitive ontology pipeline. Map rational intention and concretize social realities as inscribed acts. Return ONLY valid JSON:
+PROMPT_3_INSTITUTIONAL = """You are Stage 3 of a socio-cognitive ontology encoding pipeline. Your operating paradigm elevates Daniel Dennett’s Intentional Stance and Maurizio Ferraris’s Documentality into structural graph constraints. 
+
+## EXTRACTION AXIOMS:
+1. **The Intentional Stance:** Model all actors as rational agents navigating semantic justifications. Do not accept spontaneous actions. You must establish strict `is_caused_by` relations linking a physical Action to the Intention extracted in Stage 2. Define the "free-floating rationale" that makes the behavior logical to the agent in their specific context.
+2. **Documentality (Object = Inscribed Act):** Social reality is not ethereal; it is structurally concrete. Extract all `Inscribed Acts`—diagnoses, laws, societal algorithms, cultural records, or prescriptions.
+3. **Institutional Gravity:** For every Inscribed Act, define the specific, tangible causal force it exerts (the concrete permissions it grants or the strict systemic limitations it imposes on the Agents).
+
+## INPUT:
+You will receive raw source text AND the JSON outputs from Stages 1 and 2.
+
+## OUTPUT FORMAT:
+Return your analysis STRICTLY as a valid JSON object matching this schema:
 {
-  "Intentional_Relations": [{"action_id": "string", "is_caused_by_intention": "string", "semantic_justification": "string"}],
-  "Inscribed_Acts": [{"document_or_record_id": "string", "causal_force_generated": "string", "constrained_or_empowered_agents": ["string"]}]
+  "Intentional_Relations": [
+    {"action_id": "string", "is_caused_by_intention": "string", "semantic_justification": "string"}
+  ],
+  "Inscribed_Acts": [
+    {"document_or_record_id": "string", "causal_force_generated": "string", "constrained_or_empowered_agents": ["string"]}
+  ]
 }"""
 
-PROMPT_4_VIBE = """You are Stage 4 of a socio-cognitive ontology pipeline. Structure complex scenes and reify affective atmospheres. Return ONLY valid JSON:
+PROMPT_4_VIBE = """You are Stage 4 of a socio-cognitive ontology encoding pipeline. Your operating paradigm relies on Fillmore’s Frame Semantics and the Emotion Frame Ontology (EFO). Your task is to structure complex scenes and reify affective atmospheres.
+
+## EXTRACTION AXIOMS:
+1. **Semantic Frames:** Identify the central complex scenes or behavioral gestalts in the text. Treat them as structures requiring specific semantic roles. Identify the Agent, Target, Trigger, Prior State, and Outcome. Note explicitly if the text logically requires a variable but the author leaves it missing.
+2. **Emotion Situations (Vibe-Semantics):** When a complex affective atmosphere, mood, or "vibe" is detected, do not flatten it into a primitive adjective. Reify it as a central `:EmotionSituation` node drawing together 5 mandatory elements:
+   - `Experiencer`: The agent undergoing the state.
+   - `Trigger`: The exact physical or cognitive stimulus.
+   - `Appraisal`: The cognitive evaluation (linked to BDI Beliefs).
+   - `Physiological_Substrate`: The underlying bodily/systemic response.
+   - `Social_Display_Rule`: The cultural normative description dictating how this feeling is allowed to be expressed.
+
+## INPUT:
+You will receive raw source text AND the JSON outputs from Stages 1, 2, and 3.
+
+## OUTPUT FORMAT:
+Return your analysis STRICTLY as a valid JSON object matching this schema:
 {
-  "Semantic_Frames": [{"frame_name": "string", "authorial_perspective": "string", "frame_elements": {"agent": "string", "target": "string", "trigger": "string", "prior_state": "string", "outcome": "string"}, "missing_variables": ["string"]}],
-  "Emotion_Situations": [{"vibe_label": "string", "EFO_Elements": {"experiencer": "string", "trigger": "string", "appraisal": "string", "physiological_substrate": "string", "social_display_rule": "string"}}]
+  "Semantic_Frames": [
+    {
+      "frame_name": "string",
+      "authorial_perspective": "string",
+      "frame_elements": {"agent": "string", "target": "string", "trigger": "string", "prior_state": "string", "outcome": "string"},
+      "missing_variables": ["string"]
+    }
+  ],
+  "Emotion_Situations": [
+    {
+      "vibe_label": "string",
+      "EFO_Elements": {
+        "experiencer": "string",
+        "trigger": "string",
+        "appraisal": "string",
+        "physiological_substrate": "string",
+        "social_display_rule": "string"
+      }
+    }
+  ]
 }"""
 
-PROMPT_5_TOPOLOGICAL = """You are Stage 5 of a socio-cognitive ontology pipeline. Map behavioral and psychological states onto continuous geometric dimensions. Return ONLY valid JSON:
+PROMPT_5_TOPOLOGICAL = """You are Stage 5 of a socio-cognitive ontology encoding pipeline. Your operating paradigm is Peter Gärdenfors' Theory of Conceptual Spaces. You must abandon binary tags and strict hierarchical taxonomy. Your task is to map the behavioral and psychological states from the text onto continuous geometric dimensions.
+
+## EXTRACTION AXIOMS:
+1. **Quality Dimensions:** Identify 3 to 4 continuous variables (abstract spectra) the author implicitly or explicitly relies on to measure the state of the agents or subjects. 
+2. **Topological Plotting:** Assign the target agents relative coordinates (scalar values from 0.0 to 1.0) along these defined dimensions based on textual evidence.
+3. **Dynamic Trajectories:** Map processes of change over time as continuous mathematical trajectories. Identify the starting coordinate, the ending coordinate, and the catalyst that drove the geometric movement through the conceptual space.
+
+## INPUT:
+You will receive raw source text AND the JSON outputs from Stages 1 through 4.
+
+## OUTPUT FORMAT:
+Return your analysis STRICTLY as a valid JSON object matching this schema:
 {
-  "Quality_Dimensions": ["string"],
-  "Conceptual_Coordinates": [{"target_entity": "string", "plot": {"dimension_name": 0.0}, "textual_justification": "string"}],
-  "Dynamic_Trajectories": [{"entity_tracked": "string", "process_described": "string", "start_coordinates": {"dimension_name": 0.0}, "end_coordinates": {"dimension_name": 0.0}, "trajectory_catalyst": "string"}]
+  "Quality_Dimensions": ["dimension_1", "dimension_2", "dimension_3"],
+  "Conceptual_Coordinates": [
+    {"target_entity": "string", "plot": {"dimension_1": 0.0, "dimension_2": 0.0}, "textual_justification": "string"}
+  ],
+  "Dynamic_Trajectories": [
+    {
+      "entity_tracked": "string",
+      "process_described": "string",
+      "start_coordinates": {"dimension_X": 0.0},
+      "end_coordinates": {"dimension_X": 0.0},
+      "trajectory_catalyst": "string"
+    }
+  ]
 }"""
 
-PROMPT_6_SYNTHESIS = """You are Stage 6 of a socio-cognitive ontology pipeline. Identify the Central Event or focal thesis and bind all extracted data into a unified Tripartite Convergence Matrix. Return ONLY valid JSON:
+PROMPT_6_SYNTHESIS = """You are the final capstone (Stage 6) of a socio-cognitive ontology encoding pipeline. You will be provided with the raw source text alongside the structured JSON outputs from all five previous ontological engines (DOLCE, UFO, Rational-Institutional, Vibe-Semantics, and Topological). 
+
+Your mandate is to identify the singular **Central Event** or focal thesis of the narrative and bind all extracted data into a single, unified Tripartite Convergence Matrix.
+
+## EXTRACTION AXIOMS:
+Every central action in a narrative is the intersection of three inseparable planes of causality. You must map how the previous extractions converge on the central event:
+1. **The Micro-Intrinsic Plane (Substrate):** The fundamental physical capacities, systemic baselines, and geometric coordinates underlying the action (Pull from: Qualities, Topological Dimensions, Physiological Substrates).
+2. **The Meso-Cognitive Plane (Internal):** The subjective, psychological motivation driving the action (Pull from: BDI Triad, Emotion Situations, Semantic Justifications).
+3. **The Macro-Contextual Plane (External):** The societal frameworks and consequences shaping the viability of the action (Pull from: D&S Normative Descriptions, Inscribed Acts, Social Dependencies).
+
+## INPUT:
+You will receive raw source text AND an aggregated payload of all JSON arrays from Stages 1 through 5.
+
+## OUTPUT FORMAT:
+Return the final Canonical Knowledge Object STRICTLY as a JSON schema:
 {
   "Canonical_Knowledge_Object": {
     "central_event_or_thesis": "string",
     "event_description": "string",
     "Tripartite_Convergence_Matrix": {
-      "Micro_Intrinsic_Plane": {"somatic_or_systemic_drivers": ["string"], "conceptual_space_coordinates": {"dimension": 0.0}},
-      "Meso_Cognitive_Plane": {"belief_desire_intention": ["string"], "emotion_situation_vibe": "string", "semantic_justification": "string"},
-      "Macro_Contextual_Plane": {"normative_descriptions": ["string"], "inscribed_acts_constraints": ["string"], "social_dependencies": ["string"]}
+      "Micro_Intrinsic_Plane": {
+        "somatic_or_systemic_drivers": ["string"],
+        "conceptual_space_coordinates": {"dimension": 0.0}
+      },
+      "Meso_Cognitive_Plane": {
+        "belief_desire_intention": ["string"],
+        "emotion_situation_vibe": "string",
+        "semantic_justification": "string"
+      },
+      "Macro_Contextual_Plane": {
+        "normative_descriptions": ["string"],
+        "inscribed_acts_constraints": ["string"],
+        "social_dependencies": ["string"]
+      }
     },
-    "Systemic_Cascade_Summary": "string"
+    "Systemic_Cascade_Summary": "A concise, 2-sentence summary of how a shift in one plane triggered the central event across the other two."
   }
 }"""
 
@@ -357,7 +498,7 @@ def main():
     # Establish Workspace Directory Structures
     base_name = os.path.splitext(os.path.basename(args.filepath))[0]
 
-    wip_dir = os.path.join(os.getcwd(), "dolce_vibes", "wip", base_name)
+    wip_dir = os.path.join(os.getcwd(), "dolce_vibes", "ontology")
     json_dir = os.path.join(os.getcwd(), "dolce_vibes", "json")
     obsidian_dir = os.path.join(os.getcwd(), "dolce_vibes", "obsidian", base_name)
 

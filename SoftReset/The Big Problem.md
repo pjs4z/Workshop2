@@ -1,0 +1,3 @@
+- ADHD-linked dopamine dysregulation
+- Identity collapse
+- Structural isolation

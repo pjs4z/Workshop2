@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "e5bba93660e2c8cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e173c77deae6d5f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26f72b8db3129678",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8b36f641d68da2fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "c92be2455d0af2ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "26396d0b57457171",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8f47056be378045b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7d8e13641be636d8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "62bfa81dfa6aca64",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2bd25abc0f42cdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb5eecd974361db1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Reference Frameworks/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "e4669e698cb9eff2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Reference Frameworks/Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "a96fea24cbe59917",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "507744d17b2aa755",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0f39161e5526caad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "The Big Insight.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of The Big Insight"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-importer:Open Importer": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false
+    }
+  },
+  "active": "26396d0b57457171",
+  "lastOpenFiles": [
+    "The Four Steps (Plus One).md",
+    "Self-Regulation copy.md",
+    "Salience Attribution.md",
+    "Orbitofrontal Cortex (OFC).md",
+    "Hungry Ghost.md",
+    "Harm Reduction copy.md",
+    "Dopamine copy 2.md",
+    "Dislocation.md",
+    "Compassionate Curiosity.md",
+    "Brain Lock.md",
+    "Attunement copy.md",
+    "Addiction Process.md",
+    "Withdrawal.md",
+    "Value System.md",
+    "Tolerance.md",
+    "The Virtuous Cycle of Natural Recovery.md",
+    "The Placebo Effect.md",
+    "The Égoisme à Deux Spiral.md",
+    "The Disease Model Trap.md",
+    "The Cycle of Atrophy.md",
+    "Social Dependency Constellation.md",
+    "Set-Point Theory.md",
+    "Self-Efficacy.md",
+    "Relapse.md",
+    "Private World.md",
+    "Opponent-Process.md",
+    "SoftReset-Base.base",
+    "executive-function",
+    "taming-the-molecule-of-more",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Reference Frameworks"
+  ]
+}
