@@ -85,7 +85,7 @@ def main():
     parser.add_argument(
         "-o", "--output", 
         type=str, 
-        default="./output", 
+        default="./source/markdown", 
         help="Directory to save the resulting .md files. Defaults to './output'."
     )
     

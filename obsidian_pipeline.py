@@ -227,7 +227,7 @@ def main():
         print("Ensure GEMINI_API_KEY is set in your environment variables.")
         sys.exit(1)
         
-    model = "gemini-3-pro-preview"
+    model = "gemini-3.1-pro-preview"
     
     print(f"Starting Knowledge Encoding Pipeline for: {source_document_name}.md")
     print("Note: 'HIGH' thinking level is enabled. Steps will stream live.\n")

@@ -1,1 +1,0 @@
-Here are the atomic Markdown notes derived from the text of *Indistractable*, formatted for an Obsidian Zettelkasten.
