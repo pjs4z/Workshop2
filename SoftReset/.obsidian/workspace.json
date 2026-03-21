@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "e173c77deae6d5f2",
+        "id": "7946eeec07f5215c",
         "type": "tabs",
         "children": [
           {
-            "id": "26f72b8db3129678",
+            "id": "6cb5fdfea2a01a75",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "01_tagged_processed/design-1-color-modes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "design-1-color-modes"
+            }
+          },
+          {
+            "id": "ee4db23bd98abb0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Executive Control System.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The Executive Control System"
             }
           }
         ]
@@ -152,22 +170,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Big Insight.md",
+                "file": "Compulsive Distraction-Seeking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of The Big Insight"
+              "title": "Outline of Compulsive Distraction-Seeking"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,46 +195,44 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-importer:Open Importer": false,
       "markdown-importer:Open format converter": false,
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "26396d0b57457171",
+  "active": "6cb5fdfea2a01a75",
   "lastOpenFiles": [
-    "Neuroplasticity.md",
-    "Mesolimbic Dopamine System.md",
-    "Extended Amygdala.md",
-    "Compulsive Drug-Seeking and Taking.md",
-    "Addiction Cycle.md",
-    "Prescription Drug Monitoring Programs.md",
-    "Nonmedical Stimulant Misuse.md",
-    "Medication Diversion.md",
-    "Executive Functioning Capacity.md",
-    "Diversion and Misuse Escalation.md",
-    "Performance Accomplishments.md",
-    "Participant Modeling.md",
-    "Mastery-Efficacy Cycle.md",
-    "Defensive Avoidance Relief.md",
-    "The Dopamine-H&N Homeostasis.md",
-    "Reward Prediction Error.md",
-    "Here and Now Neurotransmitters.md",
-    "Dopamine.md",
-    "Addiction.md",
-    "Triadic Reciprocal Determinism.md",
-    "Self-Efficacy.md",
-    "Intrinsic Motivation.md",
-    "Efficacy-Behavior-Environment Reinforcement.md",
-    "Behavioral Change.md",
-    "The Four Steps (Plus One).md",
-    "Self-Regulation copy.md",
+    "01_tagged_processed/architecture-reset-knowledge-forge-highlevel-technical.md",
+    "01_tagged_processed/reference-dopamine-state-variavles.md",
+    "01_tagged_processed/reference-the-reset-order-visual-storytelling.md",
+    "01_tagged_processed/design-the-reset-order-emotional-directive.md",
+    "01_tagged_processed/vision-our-views-on-aa.md",
+    "01_tagged_processed/strategy-the-reset-order-dopamine-fitness.md",
+    "01_tagged_processed/design-dopamine-simulation-model-design.md",
+    "01_tagged_processed/architecture-dopamine-recovery-journey-metrics-framework.md",
+    "01_tagged_processed/vision-the-reset-order-product-vision.md",
+    "01_tagged_processed/persona-dopamine-personality-and-addiction-a.md",
+    "01_tagged_processed/architecture-text-mason-raw-book-ingestion-schema.md",
+    "01_tagged_processed/vision-the-journey-of-transformation-a.md",
+    "01_tagged_processed/architecture-the-reset-mind-schema-design-approach.md",
+    "01_tagged_processed/vision-a-common-human-problem-and.md",
+    "01_tagged_processed/vision-reimagining-addiction-a-human-learned.md",
+    "01_tagged_processed/vision-the-journey-of-sovereign-redemption.md",
+    "01_tagged_processed/persona-founder-gpt-character-bible.md",
+    "01_tagged_processed/strategy-probledefinitionsolutionhypothesis3.md",
+    "01_tagged_processed/design-from-chaos-to-triumph-a.md",
+    "01_tagged_processed/architecture-personaanalyzersysteminstructionsprompt.md",
+    "01_tagged_processed/reference-ux-ui-art-direction.md",
+    "01_tagged_processed/architecture-system-architect-2.md",
+    "01_tagged_processed/reference-narrative-graphics-art-direction-2.md",
+    "01_tagged_processed/design-ux-ui-art-direction-2.md",
+    "01_tagged_processed/process-the-reset-order-epic-recovery.md",
+    "01_tagged_processed/vision-rethinking-addiction.md",
+    "01_tagged_processed",
+    "copilot/copilot-custom-prompts",
+    "copilot",
     "SoftReset-Base.base",
     "executive-function",
     "taming-the-molecule-of-more",
-    "copilot/copilot-custom-prompts",
-    "copilot",
     "Reference Frameworks"
   ]
 }

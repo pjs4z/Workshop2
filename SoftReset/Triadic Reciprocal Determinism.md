@@ -1,5 +1,5 @@
 ---
-aliases:["Reciprocal Determinism", "Triadic Reciprocity"]
+aliases: ["Reciprocal Determinism", "Triadic Reciprocity"]
 tags:
   - type/Occurrent
   - domain/Sociocultural

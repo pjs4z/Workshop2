@@ -1,9 +1,4 @@
 [
-  "dataview",
-  "templater-obsidian",
-  "obsidian-importer",
-  "obsidian-mind-map",
-  "metadata-menu",
-  "excalibrain",
-  "obsidian-excalidraw-plugin"
+  "obsidian-import-json",
+  "obsidian-linter"
 ]

@@ -1,5 +1,5 @@
 ---
-aliases:["PDMP", "Local/state prescription and drug monitoring programs"]
+aliases: ["PDMP", "Local/state prescription and drug monitoring programs"]
 tags:
   - type/Continuant
   - domain/Sociocultural

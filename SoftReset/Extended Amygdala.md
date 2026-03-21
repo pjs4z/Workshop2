@@ -1,5 +1,5 @@
 ---
-aliases:["Central nucleus of the amygdala (CeA)", "Bed nucleus of the stria terminalis (BNST)"]
+aliases: ["Central nucleus of the amygdala (CeA)", "Bed nucleus of the stria terminalis (BNST)"]
 tags:
   - type/Continuant
   - domain/Biological

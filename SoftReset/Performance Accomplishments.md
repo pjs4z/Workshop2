@@ -1,5 +1,5 @@
 ---
-aliases:["Enactive mastery", "Experiences of mastery", "Successful performance"]
+aliases: ["Enactive mastery", "Experiences of mastery", "Successful performance"]
 tags:
   - type/Occurrent
   - domain/Psychological

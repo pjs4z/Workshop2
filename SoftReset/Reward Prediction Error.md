@@ -1,5 +1,5 @@
 ---
-aliases:["Novelty buzz", "Dopaminergic excitement"]
+aliases: ["Novelty buzz", "Dopaminergic excitement"]
 tags:
   - type/Occurrent
   - domain/Psychological

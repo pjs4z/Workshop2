@@ -1,5 +1,5 @@
 ---
-aliases:["Dopamine-H&N Balance", "Future-Present Equilibrium"]
+aliases: ["Dopamine-H&N Balance", "Future-Present Equilibrium"]
 tags:
   - type/System_Loop
   - domain/Biological

@@ -1,5 +1,5 @@
 ---
-aliases:["Stimulant abuse", "Nonprescription stimulant use", "Inappropriate stimulant use"]
+aliases: ["Stimulant abuse", "Nonprescription stimulant use", "Inappropriate stimulant use"]
 tags:
   - type/Occurrent
   - domain/Sociocultural

@@ -1,5 +1,5 @@
 ---
-aliases:["Neuroadaptations", "Synaptic plasticity", "Between-system neuroadaptation", "Within-system neuroadaptation"]
+aliases: ["Neuroadaptations", "Synaptic plasticity", "Between-system neuroadaptation", "Within-system neuroadaptation"]
 tags:
   - type/Occurrent
   - domain/Biological

@@ -1,5 +1,5 @@
 ---
-aliases:["Compulsive use", "Addiction behavior"]
+aliases: ["Compulsive use", "Addiction behavior"]
 tags:
   - type/Occurrent
   - domain/Psychological
